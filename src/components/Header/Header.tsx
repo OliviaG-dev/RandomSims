@@ -2,9 +2,9 @@ import './Header.css';
 
 function Header() {
     return (
-        <>
-        <h1>Je Suis une Header</h1>
-        </>
+        <div className='container_header'>
+        <h1>RandomSims</h1>
+        </div>
     )
 }
 
