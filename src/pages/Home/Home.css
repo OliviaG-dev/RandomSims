@@ -1,0 +1,62 @@
+.color_container {
+    display: flex;
+    margin:1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.color_button {
+    height: 3rem;
+    margin-right: 2rem;
+}
+
+.color_random {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.color_random_name {
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 5rem;
+}
+
+.color_random_round {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 1px black solid;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+    
+}
+
+.trait_container {
+  display: flex;
+  margin:1rem;
+  align-items: center;
+  width: 100%;
+}
+ 
+  
+  .traits_random {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .trait_random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .trait_random_name {
+    font-weight: bold;
+  }
+  
+  .trait_random_image {
+    width: 50px;
+    height: 50px;
+  }
