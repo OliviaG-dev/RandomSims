@@ -12,6 +12,7 @@
 
 .color_button {
     height: 3rem;
+    cursor: pointer;
 }
 
 .color_random {
@@ -50,6 +51,7 @@
 
 .trait_button{
   height: 3rem;
+  cursor: pointer;
 }
 
   .traits_random {
@@ -76,3 +78,5 @@
     width: 50px;
     height: 50px;
   }
+
+  /******* ASPIRATION ********/

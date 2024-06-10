@@ -47,7 +47,7 @@ function Home() {
 
       <div className="trait_container">
         <button className="trait_button" onClick={selectRandomTraits}>
-          Générer des trait aléatoires
+          Générer des traits aléatoires
         </button>
         {selectedTraits.length > 0 && (
           <div className="traits_random">
