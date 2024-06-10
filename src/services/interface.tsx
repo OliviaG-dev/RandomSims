@@ -9,3 +9,12 @@ export interface DataTrait {
     image: string;
 }
 
+
+export interface DataAspiration {
+    id: string;
+    name: string;
+    text: string;
+    cat: string;
+    imgcat: string;
+    image: string;
+}
