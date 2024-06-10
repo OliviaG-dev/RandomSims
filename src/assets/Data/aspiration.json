@@ -9,11 +9,11 @@
     },
     {   
         "id" : "02",
-        "name" : "Âme sœur",
+        "name" : "Âme soeur",
         "text" : "Votre Sim veut trouver le Grand Amour et mener une vie gratifiante avec lui.",
         "cat" :"Amour",
         "imgcat" : "/public/Images/icone_aspirations_adulte/cat/Amour.png",
-        "image" : "/public/Images/icone_aspirations_adulte/Ame_sœur.png"
+        "image" : "/public/Images/icone_aspirations_adulte/Ame_soeur.png"
     },
     {   
         "id" : "03",
@@ -29,7 +29,7 @@
         "text" : "Votre Sim mène une quête pour atteindre la paix intérieure.",
         "cat" :"Bien être",
         "imgcat" : "/public/Images/icone_aspirations_adulte/cat/Bien_etre.png",
-        "image" : "/public/Images/icone_aspirations_adulte/Paix_interieur.png"
+        "image" : "/public/Images/icone_aspirations_adulte/Paix_interieure.png"
     },
     {   
         "id" : "05",
@@ -429,7 +429,7 @@
         "text" : "Un conflit grandit dans le monde de Batuu. Votre Sim veut explorer l'Avant-Poste de la Flèche-Noire afin de comprendre s'il doit soutenir la Résistance ou le Premier Ordre.",
         "cat" :"Star Wars",
         "imgcat" : "/public/Images/icone_aspirations_adulte/cat/Star_wars.png",
-        "image" : "/public/Images/icone_aspirations_adulte/Celebrite_de_renommée_mondiale.png"
+        "image" : "/public/Images/icone_aspirations_adulte/Espoir_ou_Ordre.png"
     },
     {   
         "id" : "55",
@@ -437,6 +437,6 @@
         "text" : " Votre Sim n'a choisi aucun camp et préfère côtoyer les contrebandiers et les chasseurs de primes histoire de gagner quelques crédits.",
         "cat" :"Star Wars",
         "imgcat" : "/public/Images/icone_aspirations_adulte/cat/Star_wars.png",
-        "image" : "/public/Images/icone_aspirations_adulte/Celebrite_de_renommée_mondiale.png"
+        "image" : "/public/Images/icone_aspirations_adulte/Corsaire_galactique.png"
     }
 ]

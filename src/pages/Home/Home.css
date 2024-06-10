@@ -54,29 +54,81 @@
   cursor: pointer;
 }
 
-  .traits_random {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 1rem 0 ;
-    width: 100%;
-  }
-  
-  .trait_random {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .trait_random_name {
-    font-weight: bold;
-    font-size: 0.7em;
-  }
-  
-  .trait_random_image {
-    width: 50px;
-    height: 50px;
-  }
+.traits_random {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 1rem 0 ;
+  width: 100%;
+}
 
-  /******* ASPIRATION ********/
+.trait_random {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.trait_random_name {
+  font-weight: bold;
+  font-size: 0.7em;
+}
+
+.trait_random_image {
+  width: 50px;
+  height: 50px;
+}
+/******* ASPIRATION ********/
+
+.aspiration_container {
+display: flex;
+justify-content: center;
+margin:3rem 0rem;
+padding-bottom: 1rem;
+flex-direction: column;
+align-items: center;
+width: 100%;
+border-bottom: black 2px solid;
+}
+
+.aspiration_button {
+  height: 3rem;
+  cursor: pointer;
+}
+
+.aspiration_random {
+  gap: 10px;
+  margin: 1rem 0 ;
+  width: 100%;
+}
+
+.aspiration_cat {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aspiration_name {
+  font-weight: bold;
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aspiration_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aspiration_textcontain {
+  margin: 2rem 0;
+  border: 2px solid #02952b;
+  border-radius: 5px;
+  padding: 0.5rem 0.2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #8bd877;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0));
+}
