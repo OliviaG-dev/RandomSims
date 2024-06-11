@@ -138,7 +138,7 @@
     {   
         "id" : "18",
         "name" : "Seigneur du tricot",
-        "text" : "Ce Sim veut écrire des livres et devenir un auteur célèbre !",
+        "text" : "Ce Sim a du fil qui coule dans ses veines et ne reculera devant rien dans sa quête pour créer le tricot parfait !",
         "cat" :"Créativité",
         "imgcat" : "/public/Images/icone_aspirations_adulte/cat/Creativite.png",
         "image" : "/public/Images/icone_aspirations_adulte/Seigneur_du_tricot.png"
