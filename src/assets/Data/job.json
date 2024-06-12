@@ -296,14 +296,14 @@
     {
         "id" : "43",
         "namejob" : "Ingénieur",
-        "text" : "Il existe de nombreux problèmes dans le monde qui nécessitent des solutions modernes et créatives. Utilisez votre amour des technologies pour mener une carrière d’ingénieur qui vous permettra de résoudre les problèmes du monde des ordinateurs et des gadgets mécaniques !",
+        "text" : "Il existe de nombreux problèmes dans le monde qui nécessitent des solutions modernes et créatives. Utilisez votre amour des technologies pour mener une carrière d'ingénieur qui vous permettra de résoudre les problèmes du monde des ordinateurs et des gadgets mécaniques !",
         "branch" : "Ingénieur en informatique",
         "img" : "/public/Images/icone_job_adulte/Ingenieur.png"
     },
     {
         "id" : "44",
         "namejob" : "Ingénieur",
-        "text" : "Il existe de nombreux problèmes dans le monde qui nécessitent des solutions modernes et créatives. Utilisez votre amour des technologies pour mener une carrière d’ingénieur qui vous permettra de résoudre les problèmes du monde des ordinateurs et des gadgets mécaniques !",
+        "text" : "Il existe de nombreux problèmes dans le monde qui nécessitent des solutions modernes et créatives. Utilisez votre amour des technologies pour mener une carrière d'ingénieur qui vous permettra de résoudre les problèmes du monde des ordinateurs et des gadgets mécaniques !",
         "branch" : "Ingénieur en mécanique",
         "img" : "/public/Images/icone_job_adulte/Ingenieur.png"
     },
@@ -355,7 +355,110 @@
         "text" : "Le feu des projecteurs vous appelle, les caméras sont braquées sur vous et vous êtes prêtes pour votre gros plan. C'est à vous d'insuffler de l'énergie dans les répliques du script et de vraiment donner vie à vos personnages.",
         "branch" : "",
         "img" : "/public/Images/icone_job_adulte/Acteur.png"
+    },
+    {
+        "id" : "52",
+        "namejob" : "Militaire",
+        "text" : "La forme physique et la discipline seront essentielles pour réussir une carrière militaire. Gravir les échelons ne sera pas facile à moins de réussir à démontrer vos capacités physiques ainsi que votre talent pour recruter et diriger d'autres Sims. Allez-vous suivre la voie permettant de devenir un jour maréchal ou opter pour une voie secrète afin de découvrir ce que des Sims pourraient cacher ?",
+        "branch" : "Soldat",
+        "img" : "/public/Images/icone_job_adulte/Militaire.png"
+    },
+    {
+        "id" : "53",
+        "namejob" : "Militaire",
+        "text" : "La forme physique et la discipline seront essentielles pour réussir une carrière militaire. Gravir les échelons ne sera pas facile à moins de réussir à démontrer vos capacités physiques ainsi que votre talent pour recruter et diriger d'autres Sims. Allez-vous suivre la voie permettant de devenir un jour maréchal ou opter pour une voie secrète afin de découvrir ce que des Sims pourraient cacher ?",
+        "branch" : "Opérations secrètes",
+        "img" : "/public/Images/icone_job_adulte/Militaire.png"
+    },
+    {
+        "id" : "54",
+        "namejob" : "Salarié dévoué",
+        "text" : "Consacrer sa vie à Infoka S.A et mettre ses besoins au-dessus de tout le reste n'est que la première étape pour un salarié dévoué. La stabilité, le respect et d'innombrables heures de travail vous attendent. Gravissez les échelons pour devenir superviseur ou expert dans votre domaine tout en profitant d'un lomg trajet le matin et de karaokés le soir.",
+        "branch" : "Expert",
+        "img" : "/public/Images/icone_job_adulte/Salarie_devoue.png"
+    },
+    {
+        "id" : "55",
+        "namejob" : "Salarié dévoué",
+        "text" : "Consacrer sa vie à Infoka S.A et mettre ses besoins au-dessus de tout le reste n'est que la première étape pour un salarié dévoué. La stabilité, le respect et d'innombrables heures de travail vous attendent. Gravissez les échelons pour devenir superviseur ou expert dans votre domaine tout en profitant d'un lomg trajet le matin et de karaokés le soir.",
+        "branch" : "Superviseur",
+        "img" : "/public/Images/icone_job_adulte/Salarie_devoue.png"
+    },
+    {
+        "id" : "56",
+        "namejob" : "Temps partiel",
+        "text" : "Soyez payé pour jouer avec des enfants... et assurer leur sécurité. C'est une grande responsabilité...",
+        "branch" : "Baby sitter",
+        "img" : "/public/Images/icone_job_adulte/Baby-Sitter.png"
+    },
+    {
+        "id" : "57",
+        "namejob" : "Temps partiel",
+        "text" : "Si vous aimez passer du temps dans les cafés et que vous connaissez déjà par cœur tous les noms des boissons sophistiquées, pourquoi ne pas en faire votre métier ?",
+        "branch" : "Barista",
+        "img" : "/public/Images/icone_job_adulte/Barista.png"
+    },
+    {
+        "id" : "58",
+        "namejob" : "Temps partiel",
+        "text" : "Pensez à votre avenir en débutant dès maintenant votre carrière dans la vente. C'est en créant des vitrines ou en convainquant des clients que vous gravirez les échelons vers les avantages en nature, les rabais et les simflouz.",
+        "branch" : "Employée de commerce",
+        "img" : "/public/Images/icone_job_adulte/Employe-Commerce.png"
+    },
+    {
+        "id" : "59",
+        "namejob" : "Temps partiel",
+        "text" : "Vous êtes jeune et en bonne santé, alors faites-vous payer par des gens qui ne le sont plus. Tondre des pelouses ou conduire de grosses machines : votre force physique va vous faire gagner de l'argent.",
+        "branch" : "Ouvrier",
+        "img" : "/public/Images/icone_job_adulte/Ouvrier.png"
+    },
+    {
+        "id" : "60",
+        "namejob" : "Temps partiel",
+        "text" : "Détendez-vous au bord de l'eau et laissez le poisson venir. Pour un pêcheur, le choix du matériel (hameçon, ligne et plomb) est essentiel !",
+        "branch" : "Pêcheur",
+        "img" : "/public/Images/icone_job_adulte/Pecheur.png"
+    },
+    {
+        "id" : "61",
+        "namejob" : "Temps partiel",
+        "text" : "La crème solaire, les sifflets et un requin de temps en temps font partie du quotidien d'un maître-nageur. Vous adorez nager, la sécurité et hurler sur des enfants turbulents qui essaient de noyer leurs amis ?Alors cette carrière à temps partiel est faite pour vous !",
+        "branch" : "Maître-nageur",
+        "img" : "/public/Images/icone_job_adulte/Maitre_Nageur.png"
+    },
+    {
+        "id" : "62",
+        "namejob" : "Temps partiel",
+        "text" : "Prenez votre tuba, et au travail ! Un plongeur a pour mission d'explorer les profondeurs de l'océan.",
+        "branch" : "Plongeur",
+        "img" : "/public/Images/icone_job_adulte/Plongeur.png"
+    },
+    {
+        "id" : "63",
+        "namejob" : "Sim à tout faire",
+        "text" : "Si vous savez manier une clé à molette, cette carrière est faite pour vous ! Sous le regard vigilant des propriétaires en détresse, rafistolez et réparez des objets pour votre plus grand plaisir (et celui de votre porte-monnaie) !",
+        "branch" : "",
+        "img" : "/public/Images/icone_job_adulte/Sim_a_tout_faire.png"
+    },
+    {
+        "id" : "64",
+        "namejob" : "Gérant de restaurant",
+        "text" : "Depuis votre enfance, vous rêvez de posséder votre propre restaurant. Mais avez-vous l'âme d'un véritable patron ? Saurez-vous satisfaire votre personnel, vos clients, et surtout le critique redouté pour obtenir ces étoiles si précieuses ? Découvrez si vous avez ce qu'il faut pour briller dans l'univers exigeant de la haute gastronomie !",
+        "branch" : "",
+        "img" : "/public/Images/icone_job_adulte/Gerant_restaurant.png"
+    },
+    {
+        "id" : "65",
+        "namejob" : "Gérant de clinique vétérinaire",
+        "text" : "Depuis votre plus jeune âge, vous rêvez de diriger une clinique vétérinaire. Mais avez-vous l'âme d'un véritable patron ? Saurez-vous satisfaire votre équipe, rassurer vos clients, et surtout offrir les meilleurs soins à vos patients à quatre pattes pour devenir une référence dans le domaine vétérinaire ? Découvrez si vous avez ce qu'il faut pour exceller dans le monde exigeant de la médecine animale !",
+        "branch" : "",
+        "img" : "/public/Images/icone_job_adulte/Gerant_clinique_veterinaire.png"
+    },
+    {
+        "id" : "66",
+        "namejob" : "Gérant de magasin",
+        "text" : "Depuis votre enfance, vous rêvez de posséder votre propre magasin. Mais avez-vous l'âme d'un véritable patron ? Saurez-vous satisfaire votre équipe, fidéliser vos clients, et surtout proposer des produits de qualité pour devenir une référence dans le commerce ? Découvrez si vous avez ce qu'il faut pour réussir dans le monde exigeant de la vente et faire de votre magasin une véritable réussite !",
+        "branch" : "",
+        "img" : "/public/Images/icone_job_adulte/Employe-Commerce.png"
     }
-
-
 ]

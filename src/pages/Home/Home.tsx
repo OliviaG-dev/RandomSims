@@ -5,6 +5,7 @@ import Data from "../../services/data";
 import { DataColor } from "../../services/interface";
 import { DataTrait } from "../../services/interface";
 import { DataAspiration } from "../../services/interface";
+import { DataJob } from "../../services/interface";
 
 function Home() {
   const data = new Data();
@@ -12,11 +13,13 @@ function Home() {
   const dataColor: DataColor[] = data.getDataColor();
   const dataTraits: DataTrait[] = data.GetDataTrait();
   const dataAspirations: DataAspiration[] = data.GetDataAspiration();
+  const dataJobs: DataJob[] = data.GetDataJob();
 
   const [selectedColor, setSelectedColor] = useState<DataColor | null>(null);
   const [selectedTraits, setSelectedTraits] = useState<DataTrait[]>([]);
   const [selectedAspiration, setSelectedAspiration] =
     useState<DataAspiration | null>(null);
+  const [selectedJob, setSelectedJob] = useState<DataJob | null>(null);
 
   const selectRandomColor = () => {
     const randomIndex = Math.floor(Math.random() * dataColor.length);
@@ -31,6 +34,11 @@ function Home() {
   const selectRandomAspiration = () => {
     const randomIndex = Math.floor(Math.random() * dataAspirations.length);
     setSelectedAspiration(dataAspirations[randomIndex]);
+  };
+
+  const selectedRandomJob = () => {
+    const randomIndex = Math.floor(Math.random() * dataJobs.length);
+    setSelectedJob(dataJobs[randomIndex]);
   };
 
   return (
@@ -87,22 +95,48 @@ function Home() {
           <div className="aspiration_random">
             <div className="aspiration_cat">
               <img
+                className="aspiration_cat_img"
                 src={selectedAspiration.imgcat}
                 alt={selectedAspiration.cat}
               />
               <div className="aspiration_name">
                 <p>{selectedAspiration.name}</p>
                 <div>
-                <img
-                  className="aspiration_img"
-                  src={selectedAspiration.image}
-                  alt={selectedAspiration.name}
-                />
+                  <img
+                    className="aspiration_img"
+                    src={selectedAspiration.image}
+                    alt={selectedAspiration.name}
+                  />
                 </div>
               </div>
             </div>
             <div className="aspiration_textcontain">
               <p>{selectedAspiration.text}</p>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* JOB RANDOM */}
+      <div className="job_container">
+        <button className="job_button" onClick={selectedRandomJob}>
+          Générer un métier aléatoire
+        </button>
+        {selectedJob && (
+          <div className="job_random">
+            <div className="job_cat">
+            <p className="job_name">
+              {selectedJob.namejob}
+              {selectedJob.branch && ` - ${selectedJob.branch}`}
+            </p>
+            <img
+              className="job_img"
+              src={selectedJob.img}
+              alt={selectedJob.namejob}
+            />
+            </div>
+            <div className="job_textcontain">
+            <p>{selectedJob.text}</p>
             </div>
           </div>
         )}
