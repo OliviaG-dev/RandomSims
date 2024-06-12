@@ -18,3 +18,10 @@ export interface DataAspiration {
     imgcat: string;
     image: string;
 }
+export interface DataJob {
+    id: string;
+    namejob: string;
+    text: string;
+    branch: string;
+    img: string;
+}
