@@ -36,15 +36,27 @@ function Home() {
     setSelectedAspiration(dataAspirations[randomIndex]);
   };
 
-  const selectedRandomJob = () => {
+  const selectRandomJob = () => {
     const randomIndex = Math.floor(Math.random() * dataJobs.length);
     setSelectedJob(dataJobs[randomIndex]);
+  };
+
+  const generateRandomSim = () => {
+    selectRandomColor();
+    selectRandomTraits();
+    selectRandomAspiration();
+    selectRandomJob();
   };
 
   return (
     <>
       <Navbar />
-      <h1>Randomizer votre sims :</h1>
+      <div className="sims_container">
+        <h1>Randomiser votre sims :</h1>
+        <button className="color_button" onClick={generateRandomSim}>
+          Générer un sim aléatoire
+        </button>
+      </div>
 
       {/* COLOR RANDOM */}
       <div className="color_container">
@@ -119,24 +131,24 @@ function Home() {
 
       {/* JOB RANDOM */}
       <div className="job_container">
-        <button className="job_button" onClick={selectedRandomJob}>
+        <button className="job_button" onClick={selectRandomJob}>
           Générer un métier aléatoire
         </button>
         {selectedJob && (
           <div className="job_random">
             <div className="job_cat">
-            <p className="job_name">
-              {selectedJob.namejob}
-              {selectedJob.branch && ` - ${selectedJob.branch}`}
-            </p>
-            <img
-              className="job_img"
-              src={selectedJob.img}
-              alt={selectedJob.namejob}
-            />
+              <p className="job_name">
+                {selectedJob.namejob}
+                {selectedJob.branch && ` - ${selectedJob.branch}`}
+              </p>
+              <img
+                className="job_img"
+                src={selectedJob.img}
+                alt={selectedJob.namejob}
+              />
             </div>
             <div className="job_textcontain">
-            <p>{selectedJob.text}</p>
+              <p>{selectedJob.text}</p>
             </div>
           </div>
         )}

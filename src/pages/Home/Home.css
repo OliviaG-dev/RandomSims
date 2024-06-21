@@ -1,3 +1,11 @@
+/******* SIMS ********/
+
+.sims_container {
+  display: flex;
+  gap: 5rem;
+}
+
+
 /******* COLOR ********/
 
 .color_container {

@@ -9,7 +9,6 @@ export interface DataTrait {
     image: string;
 }
 
-
 export interface DataAspiration {
     id: string;
     name: string;
@@ -23,5 +22,11 @@ export interface DataJob {
     namejob: string;
     text: string;
     branch: string;
+    img: string;
+}
+
+export interface DataMap {
+    name: string;
+    text: string;
     img: string;
 }
