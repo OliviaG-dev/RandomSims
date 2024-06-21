@@ -30,3 +30,8 @@ export interface DataMap {
     text: string;
     img: string;
 }
+
+export interface DataTraitTerrain {
+    name: string;
+    img: string;
+}

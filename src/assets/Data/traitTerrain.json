@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Accueillant",
+        "img": "/public/Images/icone_traits_terrain/Accueillant.png"
+    },
+    {
+        "name": "Brises vivifiantes",
+        "img": "/public/Images/icone_traits_terrain/Brises_vivifiantes.png"
+    },
+    {
+        "name": "Convivial",
+        "img": "/public/Images/icone_traits_terrain/Convivial.png"
+    },
+    {
+        "name": "Domicile privé",
+        "img": "/public/Images/icone_traits_terrain/Domicile_prive.png"
+    },
+    {
+        "name": "Fantastique acoustique",
+        "img": "/public/Images/icone_traits_terrain/Fantastique_acoustique.png"
+    },
+    {
+        "name": "Internet rapide",
+        "img": "/public/Images/icone_traits_terrain/Internet_rapide.png"
+    },
+    {
+        "name": "Lumière naturelle",
+        "img": "/public/Images/icone_traits_terrain/Lumière_naturelle.png"
+    },
+    {
+        "name": "Quartier d'ados",
+        "img": "/public/Images/icone_traits_terrain/Quartier_d_ados.png"
+    },
+    {
+        "name": "Repaire de scientifique",
+        "img": "/public/Images/icone_traits_terrain/Repaire_de_scientifique.png"
+    },
+    {
+        "name": "Alignement cosmique",
+        "img": "/public/Images/icone_traits_terrain/Alignement_cosmique.png"
+    },
+    {
+        "name": "Ambiance méchante",
+        "img": "/public/Images/icone_traits_terrain/Ambiance_mechante.png"
+    },
+    {
+        "name": "Aura romantique",
+        "img": "/public/Images/icone_traits_terrain/Aura_romantique.png"
+    },
+    {
+        "name": "Bonnes écoles",
+        "img": "/public/Images/icone_traits_terrain/Bonnes_ecoles.png"
+    },
+    {
+        "name": "Cuisine de chef",
+        "img": "/public/Images/icone_traits_terrain/Cuisine_de_chef.png"
+    },
+    {
+        "name": "Ensoleillé",
+        "img": "/public/Images/icone_traits_terrain/Ensoleille.png"
+    },
+    {
+        "name": "Fantastique sol",
+        "img": "/public/Images/icone_traits_terrain/Fantastique_Sol.png"
+    },
+    {
+        "name": "Fée généreuse",
+        "img": "/public/Images/icone_traits_terrain/Fee_genereuse.png"
+    },
+    {
+        "name": "Gnomes",
+        "img": "/public/Images/icone_traits_terrain/Gnomes.png"
+    },
+    {
+        "name": "Jeux d'enfants",
+        "img": "/public/Images/icone_traits_terrain/Jeux_enfants.png"
+    },
+    {
+        "name": "Lieu de fête",
+        "img": "/public/Images/icone_traits_terrain/Lieu_de_fete.png"
+    },
+    {
+        "name": "Studio d'artiste",
+        "img": "/public/Images/icone_traits_terrain/Studio_D_artiste.png"
+    },
+    {
+        "name": "Connexion vampirique",
+        "img": "/public/Images/icone_traits_terrain/TConnexion_vampirique.png"
+    },
+    {
+        "name": "Repaire de vampire enregistré",
+        "img": "/public/Images/icone_traits_terrain/Repaire_de_vampire_enregistre.png"
+    },
+    {
+        "name": "Sombre alignement cosmique",
+        "img": "/public/Images/icone_traits_terrain/Sombre_alignement_cosmique.png"
+    },
+    {
+        "name": "Lieu préféré des chats",
+        "img": "/public/Images/icone_traits_terrain/Lieu_prefere_des_chats.png"
+    },
+    {
+        "name": "Lieu préféré des chiens",
+        "img": "/public/Images/icone_traits_terrain/Zone_de_dressage.png"
+    },
+    {
+        "name": "Zone de dressage",
+        "img": "/public/Images/icone_traits_terrain/Lieu_prefere_des_chiens.png"
+    },
+    {
+        "name": "Paisible",
+        "img": "/public/Images/icone_traits_terrain/Paisible.png"
+    },
+    {
+        "name": "Maison de célébrité",
+        "img": "/public/Images/icone_traits_terrain/Maison_de_celebrite.png"
+    },
+    {
+        "name": "Esprit des îles",
+        "img": "/public/Images/icone_traits_terrain/Esprit_des_îles.png"
+    },
+    {
+        "name": "Lieu d'étude",
+        "img": "/public/Images/icone_traits_terrain/Lieu_d_etude.png"
+    },
+    {
+        "name": "Géothermique",
+        "img": "/public/Images/icone_traits_terrain/Geothermique.png"
+    },
+    {
+        "name": "Puits naturel",
+        "img": "/public/Images/icone_traits_terrain/Puits_naturel.png"
+    },
+    {
+        "name": "Terrain écologique",
+        "img": "/public/Images/icone_traits_terrain/Terrain_écologique.png"
+    }
+]
