@@ -35,3 +35,8 @@ export interface DataTraitTerrain {
     name: string;
     img: string;
 }
+
+export interface DataDefiTerrain {
+    name: string;
+    img: string;
+}

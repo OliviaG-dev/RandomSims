@@ -4,7 +4,9 @@ import aspirations from "../assets/Data/aspiration.json"
 import jobs from "../assets/Data/job.json"
 import maps from "../assets/Data/map.json"
 import traitsTerrain from "../assets/Data/traitTerrain.json"
+import defisTerrain from "../assets/Data/defiTerrain.json"
 
+import { DataDefiTerrain } from "./interface";
 import { DataTrait } from './interface'
 import { DataColor } from './interface'
 import { DataAspiration } from './interface'
@@ -36,6 +38,10 @@ class Data {
 
     GetDataTraitTerrain = (): DataTraitTerrain[] => {
         return traitsTerrain as DataTraitTerrain[];
+    }
+
+    GetDataDefiTerrain = (): DataDefiTerrain[] => {
+        return defisTerrain as DataDefiTerrain[];
     }
 }
 
