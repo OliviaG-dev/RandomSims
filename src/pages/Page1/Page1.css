@@ -1,4 +1,4 @@
-.map_container {
+.random_container {
     display: flex;
     justify-content: center;
     margin:3rem 0rem;
@@ -9,11 +9,15 @@
     border-bottom: black 2px solid;
 }
     
-.map_button {
+.random_button {
     height: 3rem;
     cursor: pointer;
 }
-    
+
+
+
+/******* MAP ********/
+
 .map_random {
     gap: 10px;
     margin: 1rem 0 ;
@@ -44,4 +48,48 @@
     justify-content: center;
     background-color: #8bd877;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0));
+}
+
+/******* TRAIT TERRAIN ********/
+
+.Terrains_random {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 1rem 0 ;
+    width: 100%;
+}
+
+.Terrain_random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 7rem;
+}
+
+.Terrain_random_name {
+    font-weight: bold;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.Terrain_random_image {
+    width: 50px;
+    height: 50px;
+    margin-top: 0.5rem;
+}
+
+/******* DEFI TERRAIN ********/
+
+.defi_text {
+    min-height: 9rem;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0 0.3rem
 }

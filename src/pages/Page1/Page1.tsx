@@ -4,27 +4,60 @@ import Navbar from "../../components/Navbar/Navbar";
 import Data from "../../services/data";
 
 import { DataMap } from "../../services/interface";
+import { DataTraitTerrain } from "../../services/interface";
+import { DataDefiTerrain } from "../../services/interface";
 
 function Page1() {
   const data = new Data();
 
   const dataMaps: DataMap[] = data.GetDataMap();
+  const dataTraitsTerrain: DataTraitTerrain[] = data.GetDataTraitTerrain();
+  const dataDefisTerrain: DataDefiTerrain[] = data.GetDataDefiTerrain();
 
   const [selectedMap, setSelectedMap] = useState<DataMap | null>(null);
+  const [selectedTraitTerrain, setSelectedTraitTerrain] = useState<
+    DataTraitTerrain[]
+  >([]);
+  const [selectedDefiTerrain, setSelectedDefiTerrain] = useState<
+    DataDefiTerrain[]
+  >([]);
+  const [isDefiButtonClicked, setIsDefiButtonClicked] = useState(false);
 
   const selectRandomMap = () => {
     const randomIndex = Math.floor(Math.random() * dataMaps.length);
     setSelectedMap(dataMaps[randomIndex]);
   };
 
+  const selectTraitTerrain = () => {
+    const shuffled = dataTraitsTerrain.sort(() => 0.5 - Math.random());
+    setSelectedTraitTerrain(shuffled.slice(0, 3));
+  };
+
+  const selectDefiTerrain = () => {
+    const shuffled = dataDefisTerrain.sort(() => 0.5 - Math.random());
+    const randomCount = Math.floor(Math.random() * 5);
+    setSelectedDefiTerrain(shuffled.slice(0, randomCount));
+    setIsDefiButtonClicked(true);
+  };
+
+  const generateRandomPlaceOfLife = () => {
+    selectRandomMap();
+    selectTraitTerrain();
+    selectDefiTerrain();
+  };
+
   return (
     <>
       <Navbar />
-      <h1>Randomiser votre lieu de vie :</h1>
-
+      <div className="sims_container">
+        <h1>Randomiser votre Lieu de vie :</h1>
+        <button className="random_button" onClick={generateRandomPlaceOfLife}>
+          Générer un lieu de vie aléatoire
+        </button>
+      </div>
       {/* MAP RANDOM */}
-      <div className="map_container">
-        <button className="map_button" onClick={selectRandomMap}>
+      <div className="random_container">
+        <button className="random_button" onClick={selectRandomMap}>
           Générer map aléatoire
         </button>
         {selectedMap && (
@@ -44,6 +77,53 @@ function Page1() {
             </div>
           </div>
         )}
+      </div>
+
+      {/* TRAIT TERRAIN RANDOM */}
+      <div className="random_container">
+        <button className="random_button" onClick={selectTraitTerrain}>
+          Générer des traits de terrain aléatoire
+        </button>
+        {selectedTraitTerrain.length > 0 && (
+          <div className="Terrains_random">
+            {selectedTraitTerrain.map((trait, index) => (
+              <div key={index} className="Terrain_random">
+                <p className="Terrain_random_name">{trait.name}</p>
+                <img
+                  src={trait.img}
+                  alt={trait.name}
+                  className="Terrain_random_image"
+                />
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* DEFI TERRAIN RANDOM */}
+      <div className="random_container">
+        <button className="random_button" onClick={selectDefiTerrain}>
+          Générer des défis de terrain aléatoire
+        </button>
+        {isDefiButtonClicked &&
+          (selectedDefiTerrain.length > 0 ? (
+            <div className="Terrains_random">
+              {selectedDefiTerrain.map((defi, index) => (
+                <div key={index} className="Terrain_random">
+                  <p className="Terrain_random_name">{defi.name}</p>
+                  <img
+                    src={defi.img}
+                    alt={defi.name}
+                    className="Terrain_random_image"
+                  />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="defi_text">
+              Vous avez de la chance! Vous avez <span> 0 </span> défi.
+            </p>
+          ))}
       </div>
     </>
   );
