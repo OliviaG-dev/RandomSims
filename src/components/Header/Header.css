@@ -5,3 +5,11 @@
     align-items: center;
     margin-top: 10rem;
 }
+
+/***********RESPONSIVE***********/
+
+@media (max-width: 1500px) {
+    .container_header {
+        margin-top: 1.5rem;
+    }
+  }

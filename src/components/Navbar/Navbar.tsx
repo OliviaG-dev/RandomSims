@@ -9,25 +9,25 @@ function Navbar() {
                     <NavLink 
                     to="/"
                     className={({ isActive }) => (isActive ? "activeLink" : "inactiveLink")}
-                    >Home</NavLink>
+                    >Sims</NavLink>
                 </li>
                 <li>
                     <NavLink 
                     to="/page1"
                     className={({ isActive }) => (isActive ? "activeLink" : "inactiveLink")}
-                    >Page1</NavLink>
+                    >Lieu</NavLink>
                 </li>
                 <li>
                     <NavLink 
                     to="/page2"
                     className={({ isActive }) => (isActive ? "activeLink" : "inactiveLink")}
-                    >Page2</NavLink>
+                    >challenge</NavLink>
                 </li>
                 <li>
                     <NavLink 
                     to="/page3"
                     className={({ isActive }) => (isActive ? "activeLink" : "inactiveLink")}
-                    >Page3</NavLink>
+                    >contrainte</NavLink>
                 </li>
             </ul>
         </nav>

@@ -9,6 +9,13 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_links li {
+    margin-bottom: 1.5rem;
 }
 
 .inactiveLink {
@@ -21,7 +28,6 @@ nav {
     box-sizing: border-box;
     color: #FFFFFF;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    
 }
 
 .inactiveLink:focus:not(:focus-visible),
@@ -58,3 +64,6 @@ nav {
     border: 1px solid #4D4AE8;
     border-radius: 1rem;
 }
+
+/***********RESPONSIVE***********/
+
