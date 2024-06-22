@@ -22,6 +22,7 @@ function Page1() {
     DataDefiTerrain[]
   >([]);
   const [isDefiButtonClicked, setIsDefiButtonClicked] = useState(false);
+  const [selectedbudget, setselectedBudget] = useState<number | null>(null);
 
   const selectRandomMap = () => {
     const randomIndex = Math.floor(Math.random() * dataMaps.length);
@@ -40,10 +41,18 @@ function Page1() {
     setIsDefiButtonClicked(true);
   };
 
+  const selectRandomBudget = () => {
+    const maxIncrements = 200000 / 500 + 1;
+    const randomIndex = Math.floor(Math.random() * maxIncrements);
+    const randomBudget = randomIndex * 500;
+    setselectedBudget(randomBudget);
+  };
+
   const generateRandomPlaceOfLife = () => {
     selectRandomMap();
     selectTraitTerrain();
     selectDefiTerrain();
+    selectRandomBudget();
   };
 
   return (
@@ -124,6 +133,18 @@ function Page1() {
               Vous avez de la chance! Vous avez <span> 0 </span> défi.
             </p>
           ))}
+      </div>
+
+      {/* DEFI TERRAIN RANDOM */}
+      <div className="random_container">
+        <button className="random_button" onClick={selectRandomBudget}>
+          Générer un budget aléatoire
+        </button>
+        <div>
+          {selectedbudget !== null && (
+            <p className="defi_text">Montant de votre budget de départ : <span>{selectedbudget} §</span></p>
+          )}
+        </div>
       </div>
     </>
   );
