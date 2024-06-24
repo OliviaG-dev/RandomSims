@@ -5,7 +5,7 @@ function Page2() {
     return (
         <>
         <Navbar />
-        <h1>Je Suis une Page2</h1>
+        <h1>Randomiser un challenge :</h1>
         </>
     )
 }

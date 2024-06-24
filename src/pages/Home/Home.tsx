@@ -53,14 +53,14 @@ function Home() {
       <Navbar />
       <div className="sims_container">
         <h1>Randomiser votre sims :</h1>
-        <button className="color_button" onClick={generateRandomSim}>
+        <button className="random_button" onClick={generateRandomSim}>
           Générer un sim aléatoire
         </button>
       </div>
 
       {/* COLOR RANDOM */}
-      <div className="color_container">
-        <button className="color_button" onClick={selectRandomColor}>
+      <div className="random_container">
+        <button className="random_button" onClick={selectRandomColor}>
           Générer couleur aléatoire
         </button>
         {selectedColor && (
@@ -78,8 +78,8 @@ function Home() {
       </div>
 
       {/* TRAITS RANDOM */}
-      <div className="trait_container">
-        <button className="trait_button" onClick={selectRandomTraits}>
+      <div className="random_container">
+        <button className="random_button" onClick={selectRandomTraits}>
           Générer des traits aléatoires
         </button>
         {selectedTraits.length > 0 && (
@@ -99,8 +99,8 @@ function Home() {
       </div>
 
       {/* ASPIRATION RANDOM */}
-      <div className="aspiration_container">
-        <button className="aspiration_button" onClick={selectRandomAspiration}>
+      <div className="random_container">
+        <button className="random_button" onClick={selectRandomAspiration}>
           Générer une aspiration aléatoire
         </button>
         {selectedAspiration && (
@@ -130,8 +130,8 @@ function Home() {
       </div>
 
       {/* JOB RANDOM */}
-      <div className="job_container">
-        <button className="job_button" onClick={selectRandomJob}>
+      <div className="random_container">
+        <button className="random_button" onClick={selectRandomJob}>
           Générer un métier aléatoire
         </button>
         {selectedJob && (
