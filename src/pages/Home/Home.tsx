@@ -51,7 +51,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="sims_container">
+      <div className="title_container">
         <h1>Randomiser votre sims :</h1>
         <button className="random_button" onClick={generateRandomSim}>
           Générer un sim aléatoire
