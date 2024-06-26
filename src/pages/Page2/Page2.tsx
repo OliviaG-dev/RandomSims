@@ -1,16 +1,30 @@
 import "./Page2.css";
-// import { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
-// import Data from "../../services/data";
+import Data from "../../services/data";
+
+import { DataChallenge } from "../../services/interface";
 
 function Page2() {
+  const data = new Data();
+
+  const DataChallenges: DataChallenge[] = data.GetDataChallenge();
+
+  const [selectedChallenge, setSelectedChallenge] = useState<DataChallenge | null>(null)
+  
+  const selectRandomChallenge = () => {
+    const randomIndex = Math.floor(Math.random() * DataChallenges.length);
+    setSelectedChallenge(DataChallenges[randomIndex]);
+  }
+  
+  
   return (
     <>
       <Navbar />
       <div className="title_container">
         <h1>Randomiser un challenge :</h1>
-        <button className="random_button">
+        <button className="random_button" onClick={selectRandomChallenge}>
           Générer un challenge aléatoire
         </button>
       </div>
@@ -60,6 +74,35 @@ function Page2() {
         </Link>
         ."
       </p>
+
+      {selectedChallenge && (
+          <div className="map_random">
+            <div className="map_cat">
+              <img
+                className="map_img"
+                src={selectedChallenge.img}
+                alt={selectedChallenge.name}
+              />
+              <div className="map_name">
+                <p>{selectedChallenge.name}</p>
+                <p>de {selectedChallenge.auteur}</p>
+              </div>
+            </div>
+            <p>Vous trouverez le challenge complet dans ce &nbsp;
+            <Link
+          className="challenge_intro_link"
+          to="https://luniversims.fr/index.html/les-sims-4/les-sims-4-news/les-sims-4-liste-des-challenges-r1389/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          lien
+        </Link>
+            </p>
+            <div className="map_textcontain">
+              <p>{selectedChallenge.text}</p>
+            </div>
+          </div>
+        )}
     </>
   );
 }
