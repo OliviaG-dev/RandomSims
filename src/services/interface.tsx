@@ -40,3 +40,12 @@ export interface DataDefiTerrain {
     name: string;
     img: string;
 }
+
+export interface DataChallenge {
+    id: string;
+    name: string;
+    auteur: string;
+    img: string;
+    text: string;
+    link: string;
+}

@@ -1,8 +1,8 @@
 import "./Page2.css";
-import { useState } from "react";
+// import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
-import Data from "../../services/data";
+// import Data from "../../services/data";
 
 function Page2() {
   return (
@@ -40,10 +40,19 @@ function Page2() {
       </div>
       <p className="challenge_intro">
         "Ces challenges, soigneusement collectés par des fans, ont été répertoriés sur
-        ce forum&nbsp;
+        ces forums&nbsp;
         <Link
           className="challenge_intro_link"
           to="https://luniversims.fr/index.html/les-sims-4/les-sims-4-news/les-sims-4-liste-des-challenges-r1389/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ici
+        </Link>
+        &nbsp;et&nbsp;
+        <Link
+          className="challenge_intro_link"
+          to="https://forums.thesims.com/fr_FR/discussion/comment/12393236/#Comment_12393236"
           target="_blank"
           rel="noopener noreferrer"
         >
