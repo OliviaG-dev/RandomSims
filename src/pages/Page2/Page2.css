@@ -15,3 +15,15 @@
 .challenge_text p {
     margin:0.5rem 0;
 }
+
+.challenge_intro {
+    text-align: center;
+    font-style: italic;
+    color: #565857;
+}
+
+.challenge_intro_link {
+    color: #565857;
+    font-weight: bold;
+    text-decoration: underline;
+}
