@@ -91,7 +91,7 @@ function Page2() {
             <p>Vous trouverez le challenge complet dans ce &nbsp;
             <Link
           className="challenge_intro_link"
-          to="https://luniversims.fr/index.html/les-sims-4/les-sims-4-news/les-sims-4-liste-des-challenges-r1389/"
+          to={selectedChallenge.link}
           target="_blank"
           rel="noopener noreferrer"
         >
