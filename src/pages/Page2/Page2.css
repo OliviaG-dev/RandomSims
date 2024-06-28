@@ -1,0 +1,29 @@
+/********** Presentation ***********/
+.challenge_text {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0.5rem;
+    border: 2px solid #02952b;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #8bd877;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0));
+}
+
+.challenge_text p {
+    margin:0.5rem 0;
+}
+
+.challenge_intro {
+    text-align: center;
+    font-style: italic;
+    color: #565857;
+}
+
+.challenge_intro_link {
+    color: #565857;
+    font-weight: bold;
+    text-decoration: underline;
+}

@@ -1,27 +1,27 @@
-/******* SIMS ********/
+/********COMPOSANT GENERIQUES********/
+.random_container {
+  display: flex;
+  margin:3rem 0rem;
+  padding-bottom: 1rem;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-bottom: black 2px solid;
+}
 
-.sims_container {
+.random_button {
+  height: 3rem;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.title_container {
   display: flex;
   gap: 5rem;
 }
 
 
 /******* COLOR ********/
-
-.color_container {
-    display: flex;
-    margin:3rem 0rem;
-    padding-bottom: 1rem;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    border-bottom: black 2px solid;
-}
-
-.color_button {
-    height: 3rem;
-    cursor: pointer;
-}
 
 .color_random {
     display: flex;
@@ -49,21 +49,6 @@
 
 /******* TRAIT ********/
 
-.trait_container {
-  display: flex;
-  margin:3rem 0rem;
-  padding-bottom: 1rem;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  border-bottom: black 2px solid;
-}
-
-.trait_button{
-  height: 3rem;
-  cursor: pointer;
-}
-
 .traits_random {
   display: flex;
   justify-content: center;
@@ -89,22 +74,6 @@
   height: 50px;
 }
 /******* ASPIRATION ********/
-
-.aspiration_container {
-display: flex;
-justify-content: center;
-margin:3rem 0rem;
-padding-bottom: 1rem;
-flex-direction: column;
-align-items: center;
-width: 100%;
-border-bottom: black 2px solid;
-}
-
-.aspiration_button {
-  height: 3rem;
-  cursor: pointer;
-}
 
 .aspiration_random {
   gap: 10px;
@@ -155,17 +124,6 @@ border-bottom: black 2px solid;
 
 /******* JOB ********/
 
-.job_container {
-  display: flex;
-  justify-content: center;
-  margin:3rem 0rem;
-  padding-bottom: 1rem;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  border-bottom: black 2px solid;
-  }
-  
   .job_button {
     height: 3rem;
     cursor: pointer;
@@ -211,4 +169,13 @@ border-bottom: black 2px solid;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0));
   }
 
-  /***********RESPONSIVE***********/
+/***********RESPONSIVE***********/
+
+@media (max-width: 1080px) {
+  .title_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
