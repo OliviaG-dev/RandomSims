@@ -76,19 +76,19 @@ function Page2() {
       </p>
 
       {selectedChallenge && (
-          <div className="map_random">
-            <div className="map_cat">
+          <div className="challenge_random">
+            <div className="challenge_cat">
               <img
-                className="map_img"
+                className="challenge_img"
                 src={selectedChallenge.img}
                 alt={selectedChallenge.name}
               />
-              <div className="map_name">
-                <p>{selectedChallenge.name}</p>
-                <p>de {selectedChallenge.auteur}</p>
+              <div>
+                <p className="challenge_name">{selectedChallenge.name}</p>
+                <p className="challenge_name-author">de {selectedChallenge.auteur}</p>
               </div>
             </div>
-            <p>Vous trouverez le challenge complet dans ce &nbsp;
+            <p className="challenge_link">Vous trouverez le challenge complet dans ce &nbsp;
             <Link
           className="challenge_intro_link"
           to={selectedChallenge.link}
@@ -98,7 +98,7 @@ function Page2() {
           lien
         </Link>
             </p>
-            <div className="map_textcontain">
+            <div className="random_textcontain">
               <p>{selectedChallenge.text}</p>
             </div>
           </div>

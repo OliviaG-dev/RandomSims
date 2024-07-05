@@ -122,7 +122,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="aspiration_textcontain">
+            <div className="random_textcontain">
               <p>{selectedAspiration.text}</p>
             </div>
           </div>
@@ -147,7 +147,7 @@ function Home() {
                 alt={selectedJob.namejob}
               />
             </div>
-            <div className="job_textcontain">
+            <div className="random_textcontain">
               <p>{selectedJob.text}</p>
             </div>
           </div>

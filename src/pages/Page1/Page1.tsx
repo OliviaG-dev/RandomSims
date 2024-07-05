@@ -81,7 +81,7 @@ function Page1() {
                 <p>{selectedMap.name}</p>
               </div>
             </div>
-            <div className="map_textcontain">
+            <div className="random_textcontain">
               <p>{selectedMap.text}</p>
             </div>
           </div>
