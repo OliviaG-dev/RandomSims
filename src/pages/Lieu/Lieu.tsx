@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Page1.css";
+import "./Lieu.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Data from "../../services/data";
 
@@ -23,6 +23,7 @@ function Page1() {
   >([]);
   const [isDefiButtonClicked, setIsDefiButtonClicked] = useState(false);
   const [selectedbudget, setselectedBudget] = useState<number | null>(null);
+  const [showContainers, setShowContainers] = useState<boolean>(false);
 
   const selectRandomMap = () => {
     const randomIndex = Math.floor(Math.random() * dataMaps.length);
@@ -53,6 +54,7 @@ function Page1() {
     selectTraitTerrain();
     selectDefiTerrain();
     selectRandomBudget();
+    setShowContainers(true);
   };
 
   return (
@@ -64,6 +66,30 @@ function Page1() {
           Générer un lieu de vie aléatoire
         </button>
       </div>
+      <div className="random_textintro">
+          <p>
+            Choisir un lieu de vie aléatoire dans Les Sims 4, c'est comme partir
+            à l'aventure avec un bandeau sur les yeux ! 🏡🎲
+          </p>
+          <p>
+            Vous découvrez des quartiers inattendus, explorez des endroits
+            méconnus, et donnez un coup de boost à votre créativité.
+          </p>
+          <p>
+            Chaque nouveau quartier ajoute dupiquant 🌶️ et une bonne dose de
+            surprise, transformant chaque partie en une expérience unique et
+            mémorable. Que vous soyez novice ou expert des Sims, cette méthode
+            est une manière fantastique de renouveler votre gameplay et de
+            sortir de votre zone de confort.
+          </p>
+          <p>
+            Prêt à voir où le destin va vous installer ? 🗺️ Allez, lancez-vous
+            et que la magie des Sims commence ! 🎉🏠
+          </p>
+      </div>
+
+      {showContainers && (
+      <>
       {/* MAP RANDOM */}
       <div className="random_container">
         <button className="random_button" onClick={selectRandomMap}>
@@ -87,7 +113,7 @@ function Page1() {
           </div>
         )}
       </div>
-
+      
       {/* TRAIT TERRAIN RANDOM */}
       <div className="random_container">
         <button className="random_button" onClick={selectTraitTerrain}>
@@ -142,10 +168,15 @@ function Page1() {
         </button>
         <div>
           {selectedbudget !== null && (
-            <p className="defi_text">Montant de votre budget de départ : <span>{selectedbudget} §</span></p>
+            <p className="defi_text">
+              Montant de votre budget de départ :{" "}
+              <span>{selectedbudget} §</span>
+            </p>
           )}
         </div>
       </div>
+      </>
+      )}
     </>
   );
 }

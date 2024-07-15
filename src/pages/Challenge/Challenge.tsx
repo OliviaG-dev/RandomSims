@@ -1,4 +1,4 @@
-import "./Page2.css";
+import "./Challenge.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
@@ -11,14 +11,14 @@ function Page2() {
 
   const DataChallenges: DataChallenge[] = data.GetDataChallenge();
 
-  const [selectedChallenge, setSelectedChallenge] = useState<DataChallenge | null>(null)
-  
+  const [selectedChallenge, setSelectedChallenge] =
+    useState<DataChallenge | null>(null);
+
   const selectRandomChallenge = () => {
     const randomIndex = Math.floor(Math.random() * DataChallenges.length);
     setSelectedChallenge(DataChallenges[randomIndex]);
-  }
-  
-  
+  };
+
   return (
     <>
       <Navbar />
@@ -28,13 +28,12 @@ function Page2() {
           Générer un challenge aléatoire
         </button>
       </div>
-      <div className="challenge_text">
+      <div className="random_textintro">
         <p>
           Faire un challenge sur Les Sims 4, c'est comme redécouvrir le jeu avec
-          des lunettes 3D ! 🤓{" "}
+          des lunettes 3D ! 🤓
         </p>
         <p>
-          {" "}
           Vous explorez des aspects inédits, tout en boostant votre créativité à
           fond.
         </p>
@@ -45,7 +44,7 @@ function Page2() {
         <p>
           Que vous soyez un novice ou un pro des Sims, les challenges sont une
           manière fantastique de pimenter votre expérience de jeu et de
-          repousser vos limites.{" "}
+          repousser vos limites.
         </p>
         <p>
           Prêt à découvrir le défi que le hasard a choisi pour vous ? 🎲 Allez,
@@ -53,8 +52,8 @@ function Page2() {
         </p>
       </div>
       <p className="challenge_intro">
-        "Ces challenges, soigneusement collectés par des fans, ont été répertoriés sur
-        ces forums&nbsp;
+        "Ces challenges, soigneusement collectés par des fans, ont été
+        répertoriés sur ces forums&nbsp;
         <Link
           className="challenge_intro_link"
           to="https://luniversims.fr/index.html/les-sims-4/les-sims-4-news/les-sims-4-liste-des-challenges-r1389/"
@@ -76,33 +75,36 @@ function Page2() {
       </p>
 
       {selectedChallenge && (
-          <div className="challenge_random">
-            <div className="challenge_cat">
-              <img
-                className="challenge_img"
-                src={selectedChallenge.img}
-                alt={selectedChallenge.name}
-              />
-              <div>
-                <p className="challenge_name">{selectedChallenge.name}</p>
-                <p className="challenge_name-author">de {selectedChallenge.auteur}</p>
-              </div>
-            </div>
-            <p className="challenge_link">Vous trouverez le challenge complet dans ce &nbsp;
-            <Link
-          className="challenge_intro_link"
-          to={selectedChallenge.link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          lien
-        </Link>
-            </p>
-            <div className="random_textcontain">
-              <p>{selectedChallenge.text}</p>
+        <div className="challenge_random">
+          <div className="challenge_cat">
+            <img
+              className="challenge_img"
+              src={selectedChallenge.img}
+              alt={selectedChallenge.name}
+            />
+            <div>
+              <p className="challenge_name">{selectedChallenge.name}</p>
+              <p className="challenge_name-author">
+                de {selectedChallenge.auteur}
+              </p>
             </div>
           </div>
-        )}
+          <p className="challenge_link">
+            Vous trouverez le challenge complet dans ce &nbsp;
+            <Link
+              className="challenge_intro_link"
+              to={selectedChallenge.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              lien
+            </Link>
+          </p>
+          <div className="random_textcontain">
+            <p>{selectedChallenge.text}</p>
+          </div>
+        </div>
+      )}
     </>
   );
 }

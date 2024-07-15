@@ -13,21 +13,15 @@ function Navbar() {
                 </li>
                 <li>
                     <NavLink 
-                    to="/page1"
+                    to="/Lieu"
                     className={({ isActive }) => (isActive ? "activeLink" : "inactiveLink")}
                     >Lieu</NavLink>
                 </li>
                 <li>
                     <NavLink 
-                    to="/page2"
+                    to="/Challenge"
                     className={({ isActive }) => (isActive ? "activeLink" : "inactiveLink")}
                     >challenge</NavLink>
-                </li>
-                <li>
-                    <NavLink 
-                    to="/page3"
-                    className={({ isActive }) => (isActive ? "activeLink" : "inactiveLink")}
-                    >contrainte</NavLink>
                 </li>
             </ul>
         </nav>
