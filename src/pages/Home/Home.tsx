@@ -102,14 +102,14 @@ function Home() {
       {showContainers && (
         <>
           <div className="random_container">
-            <button className="random_button" onClick={saveAsImage}>
+            <button className="register_button" onClick={saveAsImage}>
               Enregistrer en JPEG
             </button>
           </div>
           <div ref={resultRef}>
             {/* COLOR RANDOM */}
             <div className="random_container">
-              <button className="random_button" onClick={selectRandomColor}>
+              <button className="register_button" onClick={selectRandomColor}>
                 Générer couleur aléatoire
               </button>
               {selectedColor && (
@@ -128,7 +128,7 @@ function Home() {
 
             {/* TRAITS RANDOM */}
             <div className="random_container">
-              <button className="random_button" onClick={selectRandomTraits}>
+              <button className="register_button" onClick={selectRandomTraits}>
                 Générer des traits aléatoires
               </button>
               {selectedTraits.length > 0 && (
@@ -150,7 +150,7 @@ function Home() {
             {/* ASPIRATION RANDOM */}
             <div className="random_container">
               <button
-                className="random_button"
+                className="register_button"
                 onClick={selectRandomAspiration}
               >
                 Générer une aspiration aléatoire
@@ -183,7 +183,7 @@ function Home() {
 
             {/* JOB RANDOM */}
             <div className="random_container">
-              <button className="random_button" onClick={selectRandomJob}>
+              <button className="register_button" onClick={selectRandomJob}>
                 Générer un métier aléatoire
               </button>
               {selectedJob && (

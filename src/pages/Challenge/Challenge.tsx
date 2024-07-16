@@ -91,7 +91,7 @@ function Page2() {
       {selectedChallenge && (
         <>
           <div className="random_container">
-            <button className="random_button" onClick={saveAsImage}>
+            <button className="register_button" onClick={saveAsImage}>
               Enregistrer en JPEG
             </button>
           </div>

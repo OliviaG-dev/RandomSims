@@ -106,14 +106,14 @@ function Page1() {
       {showContainers && (
         <>
           <div className="random_container">
-            <button className="random_button" onClick={saveAsImage}>
+            <button className="register_button" onClick={saveAsImage}>
               Enregistrer en JPEG
             </button>
           </div>
           <div ref={resultRef}>
             {/* MAP RANDOM */}
             <div className="random_container">
-              <button className="random_button" onClick={selectRandomMap}>
+              <button className="register_button" onClick={selectRandomMap}>
                 Générer map aléatoire
               </button>
               {selectedMap && (
@@ -137,7 +137,7 @@ function Page1() {
 
             {/* TRAIT TERRAIN RANDOM */}
             <div className="random_container">
-              <button className="random_button" onClick={selectTraitTerrain}>
+              <button className="register_button" onClick={selectTraitTerrain}>
                 Générer des traits de terrain aléatoire
               </button>
               {selectedTraitTerrain.length > 0 && (
@@ -158,7 +158,7 @@ function Page1() {
 
             {/* DEFI TERRAIN RANDOM */}
             <div className="random_container">
-              <button className="random_button" onClick={selectDefiTerrain}>
+              <button className="register_button" onClick={selectDefiTerrain}>
                 Générer des défis de terrain aléatoire
               </button>
               {isDefiButtonClicked &&
@@ -184,7 +184,7 @@ function Page1() {
 
             {/* DEFI TERRAIN RANDOM */}
             <div className="random_container">
-              <button className="random_button" onClick={selectRandomBudget}>
+              <button className="register_button" onClick={selectRandomBudget}>
                 Générer un budget aléatoire
               </button>
               <div>
