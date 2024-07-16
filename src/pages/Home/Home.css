@@ -1,8 +1,8 @@
 /********COMPOSANT GENERIQUES********/
 .random_container {
   display: flex;
-  margin:3rem 0rem;
-  padding-bottom: 1rem;
+  margin:3rem 0;
+  padding-bottom: 3rem;
   flex-direction: column;
   align-items: center;
   width: 100%;

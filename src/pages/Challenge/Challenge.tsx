@@ -1,10 +1,11 @@
 import "./Challenge.css";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import Data from "../../services/data";
 
 import { DataChallenge } from "../../services/interface";
+import html2canvas from "html2canvas";
 
 function Page2() {
   const data = new Data();
@@ -14,9 +15,23 @@ function Page2() {
   const [selectedChallenge, setSelectedChallenge] =
     useState<DataChallenge | null>(null);
 
+  const resultRef = useRef<HTMLDivElement>(null);
+
   const selectRandomChallenge = () => {
     const randomIndex = Math.floor(Math.random() * DataChallenges.length);
     setSelectedChallenge(DataChallenges[randomIndex]);
+  };
+
+  const saveAsImage = () => {
+    if (resultRef.current) {
+      html2canvas(resultRef.current, { useCORS: true }).then((canvas) => {
+        const dataUrl = canvas.toDataURL("image/jpeg");
+        const link = document.createElement("a");
+        link.download = "challenge random.jpeg";
+        link.href = dataUrl;
+        link.click();
+      });
+    }
   };
 
   return (
@@ -73,37 +88,45 @@ function Page2() {
         </Link>
         ."
       </p>
-
       {selectedChallenge && (
-        <div className="challenge_random">
-          <div className="challenge_cat">
-            <img
-              className="challenge_img"
-              src={selectedChallenge.img}
-              alt={selectedChallenge.name}
-            />
-            <div>
-              <p className="challenge_name">{selectedChallenge.name}</p>
-              <p className="challenge_name-author">
-                de {selectedChallenge.auteur}
+        <>
+          <div className="random_container">
+            <button className="random_button" onClick={saveAsImage}>
+              Enregistrer en JPEG
+            </button>
+          </div>
+          <div ref={resultRef}>
+            <div className="challenge_random">
+              <div className="challenge_cat">
+                <img
+                  className="challenge_img"
+                  src={selectedChallenge.img}
+                  alt={selectedChallenge.name}
+                />
+                <div>
+                  <p className="challenge_name">{selectedChallenge.name}</p>
+                  <p className="challenge_name-author">
+                    de {selectedChallenge.auteur}
+                  </p>
+                </div>
+              </div>
+              <p className="challenge_link">
+                Vous trouverez le challenge complet dans ce &nbsp;
+                <Link
+                  className="challenge_intro_link"
+                  to={selectedChallenge.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  lien
+                </Link>
               </p>
+              <div className="random_textcontain">
+                <p>{selectedChallenge.text}</p>
+              </div>
             </div>
           </div>
-          <p className="challenge_link">
-            Vous trouverez le challenge complet dans ce &nbsp;
-            <Link
-              className="challenge_intro_link"
-              to={selectedChallenge.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              lien
-            </Link>
-          </p>
-          <div className="random_textcontain">
-            <p>{selectedChallenge.text}</p>
-          </div>
-        </div>
+        </>
       )}
     </>
   );

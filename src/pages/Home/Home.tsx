@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Data from "../../services/data";
@@ -6,6 +6,7 @@ import { DataColor } from "../../services/interface";
 import { DataTrait } from "../../services/interface";
 import { DataAspiration } from "../../services/interface";
 import { DataJob } from "../../services/interface";
+import html2canvas from "html2canvas";
 
 function Home() {
   const data = new Data();
@@ -21,6 +22,8 @@ function Home() {
     useState<DataAspiration | null>(null);
   const [selectedJob, setSelectedJob] = useState<DataJob | null>(null);
   const [showContainers, setShowContainers] = useState<boolean>(false);
+
+  const resultRef = useRef<HTMLDivElement>(null);
 
   const selectRandomColor = () => {
     const randomIndex = Math.floor(Math.random() * dataColor.length);
@@ -40,6 +43,18 @@ function Home() {
   const selectRandomJob = () => {
     const randomIndex = Math.floor(Math.random() * dataJobs.length);
     setSelectedJob(dataJobs[randomIndex]);
+  };
+
+  const saveAsImage = () => {
+    if (resultRef.current) {
+      html2canvas(resultRef.current, { useCORS: true }).then((canvas) => {
+        const dataUrl = canvas.toDataURL("image/jpeg");
+        const link = document.createElement("a");
+        link.download = "sims random.jpeg";
+        link.href = dataUrl;
+        link.click();
+      });
+    }
   };
 
   const generateRandomSim = () => {
@@ -81,103 +96,113 @@ function Home() {
         </p>
       </div>
       {showContainers && (
-      <>
-      {/* COLOR RANDOM */}
-      <div className="random_container">
-        <button className="random_button" onClick={selectRandomColor}>
-          Générer couleur aléatoire
-        </button>
-        {selectedColor && (
-          <div className="color_random">
-            <p className="color_random_name">{selectedColor.color}</p>
-
-            <div
-              className="color_random_round"
-              style={{
-                backgroundColor: selectedColor.style,
-              }}
-            ></div>
+        <>
+          <div className="random_container">
+            <button className="random_button" onClick={saveAsImage}>
+              Enregistrer en JPEG
+            </button>
           </div>
-        )}
-      </div>
+          <div ref={resultRef}>
+            {/* COLOR RANDOM */}
+            <div className="random_container">
+              <button className="random_button" onClick={selectRandomColor}>
+                Générer couleur aléatoire
+              </button>
+              {selectedColor && (
+                <div className="color_random">
+                  <p className="color_random_name">{selectedColor.color}</p>
 
-      {/* TRAITS RANDOM */}
-      <div className="random_container">
-        <button className="random_button" onClick={selectRandomTraits}>
-          Générer des traits aléatoires
-        </button>
-        {selectedTraits.length > 0 && (
-          <div className="traits_random">
-            {selectedTraits.map((trait, index) => (
-              <div key={index} className="trait_random">
-                <p className="trait_random_name">{trait.name}</p>
-                <img
-                  src={trait.image}
-                  alt={trait.name}
-                  className="trait_random_image"
-                />
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* ASPIRATION RANDOM */}
-      <div className="random_container">
-        <button className="random_button" onClick={selectRandomAspiration}>
-          Générer une aspiration aléatoire
-        </button>
-        {selectedAspiration && (
-          <div className="aspiration_random">
-            <div className="aspiration_cat">
-              <img
-                className="aspiration_cat_img"
-                src={selectedAspiration.imgcat}
-                alt={selectedAspiration.cat}
-              />
-              <div className="aspiration_name">
-                <p>{selectedAspiration.name}</p>
-                <div>
-                  <img
-                    className="aspiration_img"
-                    src={selectedAspiration.image}
-                    alt={selectedAspiration.name}
-                  />
+                  <div
+                    className="color_random_round"
+                    style={{
+                      backgroundColor: selectedColor.style,
+                    }}
+                  ></div>
                 </div>
-              </div>
+              )}
             </div>
-            <div className="random_textcontain">
-              <p>{selectedAspiration.text}</p>
-            </div>
-          </div>
-        )}
-      </div>
 
-      {/* JOB RANDOM */}
-      <div className="random_container">
-        <button className="random_button" onClick={selectRandomJob}>
-          Générer un métier aléatoire
-        </button>
-        {selectedJob && (
-          <div className="job_random">
-            <div className="job_cat">
-              <p className="job_name">
-                {selectedJob.namejob}
-                {selectedJob.branch && ` - ${selectedJob.branch}`}
-              </p>
-              <img
-                className="job_img"
-                src={selectedJob.img}
-                alt={selectedJob.namejob}
-              />
+            {/* TRAITS RANDOM */}
+            <div className="random_container">
+              <button className="random_button" onClick={selectRandomTraits}>
+                Générer des traits aléatoires
+              </button>
+              {selectedTraits.length > 0 && (
+                <div className="traits_random">
+                  {selectedTraits.map((trait, index) => (
+                    <div key={index} className="trait_random">
+                      <p className="trait_random_name">{trait.name}</p>
+                      <img
+                        src={trait.image}
+                        alt={trait.name}
+                        className="trait_random_image"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
-            <div className="random_textcontain">
-              <p>{selectedJob.text}</p>
+
+            {/* ASPIRATION RANDOM */}
+            <div className="random_container">
+              <button
+                className="random_button"
+                onClick={selectRandomAspiration}
+              >
+                Générer une aspiration aléatoire
+              </button>
+              {selectedAspiration && (
+                <div className="aspiration_random">
+                  <div className="aspiration_cat">
+                    <img
+                      className="aspiration_cat_img"
+                      src={selectedAspiration.imgcat}
+                      alt={selectedAspiration.cat}
+                    />
+                    <div className="aspiration_name">
+                      <p>{selectedAspiration.name}</p>
+                      <div>
+                        <img
+                          className="aspiration_img"
+                          src={selectedAspiration.image}
+                          alt={selectedAspiration.name}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="random_textcontain">
+                    <p>{selectedAspiration.text}</p>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* JOB RANDOM */}
+            <div className="random_container">
+              <button className="random_button" onClick={selectRandomJob}>
+                Générer un métier aléatoire
+              </button>
+              {selectedJob && (
+                <div className="job_random">
+                  <div className="job_cat">
+                    <p className="job_name">
+                      {selectedJob.namejob}
+                      {selectedJob.branch && ` - ${selectedJob.branch}`}
+                    </p>
+                    <img
+                      className="job_img"
+                      src={selectedJob.img}
+                      alt={selectedJob.namejob}
+                    />
+                  </div>
+                  <div className="random_textcontain">
+                    <p>{selectedJob.text}</p>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
-        )}
-      </div>
-      </>
+        </>
       )}
     </>
   );
