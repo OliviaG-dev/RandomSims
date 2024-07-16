@@ -76,23 +76,27 @@ function Home() {
       </div>
       <div className="random_textintro">
         <p>
-          Choisir un lieu de vie aléatoire dans Les Sims 4, c'est comme partir à
-          l'aventure avec un bandeau sur les yeux ! 🏡🎲
+          Créer un Sim aléatoire dans Les Sims 4, c'est comme ouvrir une boîte
+          de chocolats surprises 🍫—vous ne savez jamais sur quoi vous allez
+          tomber ! 🎲
         </p>
         <p>
-          Vous découvrez des quartiers inattendus, explorez des endroits
-          méconnus, et donnez un coup de boost à votre créativité.
+          Que ce soit un artiste excentrique, un scientifique fou ou un athlète
+          ambitieux, chaque Sim aléatoire vous pousse à explorer des styles de
+          vie, des carrières et des personnalités inattendus.
         </p>
         <p>
-          Chaque nouveau quartier ajoute du piquant 🌶️ et une bonne dose de
-          surprise, transformant chaque partie en une expérience unique et
-          mémorable.
+          Ce défi ajoute du piquant 🌶️ et un brin de folie à votre jeu, tout en
+          stimulant votre créativité.
         </p>
         <p>
-          Que vous soyez novice ou expert des Sims, cette méthode est une
-          manière fantastique de renouveler votre gameplay et de sortir de votre
-          zone de confort. Prêt à voir où le destin va vous installer ? 🗺️
-          Allez, lancez-vous et que la magie des Sims commence ! 🎉🏠
+          Que vous soyez novice ou vétéran des Sims, jouer avec un Sim aléatoire
+          est une manière fantastique de pimenter votre expérience de jeu et de
+          sortir de votre routine.
+        </p>
+        <p>
+          Prêt à découvrir le Sim que le hasard vous réserve ? 🎉 Allez,
+          lancez-vous et que l'aventure des Sims commence ! 🏡🕺
         </p>
       </div>
       {showContainers && (
