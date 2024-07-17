@@ -4,7 +4,7 @@ Bienvenue dans le projet **RandomSims** ! Ce projet est une application web dév
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue.svg) ![React](https://img.shields.io/badge/React-18.2-blue.svg) ![pnpm](https://img.shields.io/badge/pnpm-6.0-yellow.svg) ![Prettier](https://img.shields.io/badge/prettier-3.2.5-ff69b4.svg) ![ESLint](https://img.shields.io/badge/eslint-8.57.0-4B32C3.svg) ![Vite](https://img.shields.io/badge/vite-5.2.5-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) 
 
-
+Découvrez ce projet **RandomSims** 🎲🎮 juste [ici](https://random-sims-76gw3lovx-oliviag-devs-projects.vercel.app/) !
 
 
 ## 📑 Table des matières
@@ -59,7 +59,7 @@ RandomSims est là pour transformer votre expérience avec Les Sims 4 ! Voici ce
 Préparez-vous à vivre des moments épiques et à explorer les possibilités infinies des Sims 4 avec Randomizer Sims ! 🚀👾
 
 
-## 📂 Structure du projet
+ ## 📂 Structure du projet 
 
 ```csharp
 📁 public
