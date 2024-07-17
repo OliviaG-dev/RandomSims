@@ -1,62 +1,62 @@
 [
     {
         "name": "Hors réseau",
-        "img": "/public/Images/icone_defis_terrain/Hors_réseau.png"
+        "img": "/Images/icone_defis_terrain/Hors_réseau.png"
     },
     {
         "name": "Dégoutant",
-        "img": "/public/Images/icone_defis_terrain/Degoutant.png"
+        "img": "/Images/icone_defis_terrain/Degoutant.png"
     },
     {
         "name": "Effrayant",
-        "img": "/public/Images/icone_defis_terrain/Effrayant.png"
+        "img": "/Images/icone_defis_terrain/Effrayant.png"
     },
     {
         "name": "Gremlins",
-        "img": "/public/Images/icone_defis_terrain/Gremlins.png"
+        "img": "/Images/icone_defis_terrain/Gremlins.png"
     },
     {
         "name": "Maudit",
-        "img": "/public/Images/icone_defis_terrain/Maudit.png"
+        "img": "/Images/icone_defis_terrain/Maudit.png"
     },
     {
         "name": "Répugnant",
-        "img": "/public/Images/icone_defis_terrain/Repugnant.png"
+        "img": "/Images/icone_defis_terrain/Repugnant.png"
     },
     {
         "name": "Tremblements de terre",
-        "img": "/public/Images/icone_defis_terrain/Tremblements_de_terre.png"
+        "img": "/Images/icone_defis_terrain/Tremblements_de_terre.png"
     },
     {
         "name": "Bestioles grouillantes",
-        "img": "/public/Images/icone_defis_terrain/Bestioles_grouillantes.png"
+        "img": "/Images/icone_defis_terrain/Bestioles_grouillantes.png"
     },
     {
         "name": "Activité volcanique",
-        "img": "/public/Images/icone_defis_terrain/Activite_volcanique.png"
+        "img": "/Images/icone_defis_terrain/Activite_volcanique.png"
     },
     {
         "name": "Réduire et recycler",
-        "img": "/public/Images/icone_defis_terrain/Reduire_et_recycler.png"
+        "img": "/Images/icone_defis_terrain/Reduire_et_recycler.png"
     },
     {
         "name": "Renards sauvages",
-        "img": "/public/Images/icone_defis_terrain/Renards_sauvages.png"
+        "img": "/Images/icone_defis_terrain/Renards_sauvages.png"
     },
     {
         "name": "Vie simple",
-        "img": "/public/Images/icone_defis_terrain/Vie_simple.png"
+        "img": "/Images/icone_defis_terrain/Vie_simple.png"
     },
     {
         "name": "Herbe de prairie sauvage",
-        "img": "/public/Images/icone_defis_terrain/Herbe_de_prairie.png"
+        "img": "/Images/icone_defis_terrain/Herbe_de_prairie.png"
     },
     {
         "name": "Moisissures",
-        "img": "/public/Images/icone_defis_terrain/Moisissure.png"
+        "img": "/Images/icone_defis_terrain/Moisissure.png"
     },
     {
         "name": "Problème d'entretien",
-        "img": "/public/Images/icone_defis_terrain/Probleme_d_entretient.png"
+        "img": "/Images/icone_defis_terrain/Probleme_d_entretient.png"
     }
 ]

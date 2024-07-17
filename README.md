@@ -2,19 +2,33 @@
 
 Bienvenue dans le projet **RandomSims** ! Ce projet est une application web développée avec TypeScript et React, et gérée avec pnpm. L'application permet aux utilisateurs de générer des défis aléatoires pour Les Sims 4, que ce soit pour un lieu de vie, un Sim ou d'autres aspects du jeu. Prêt à voir vos Sims vivre des aventures complètement dingues ? 🤪
 
-![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue.svg) ![React](https://img.shields.io/badge/React-18.2-blue.svg) ![pnpm](https://img.shields.io/badge/pnpm-6.0-yellow.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Vite](https://img.shields.io/badge/vite-5.2.5-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue.svg) ![React](https://img.shields.io/badge/React-18.2-blue.svg) ![pnpm](https://img.shields.io/badge/pnpm-6.0-yellow.svg) ![Prettier](https://img.shields.io/badge/prettier-3.2.5-ff69b4.svg) ![ESLint](https://img.shields.io/badge/eslint-8.57.0-4B32C3.svg) ![Vite](https://img.shields.io/badge/vite-5.2.5-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) 
+
+
 
 
 ## 📑 Table des matières
 
-- [🛠️ Installation](#🛠️-installation)
-- [🚀 Lancement](#🚀-lancement)
+- [🔧 Technologies utilisées](#technologies-utilisées)
+- [🛠️ Installation](#installation)
+- [🚀 Lancement](#lancement)
 - [🎯 Fonctionnalités](#fonctionnalités)
-- [🗂️ Structure du projet](#🗂️-structure-du-projet)
-- [🤝 Contribuer](#🤝-contribuer)
-- [📜 Licence](#📜-licence)
+- [🗂️ Structure du projet](#structure-du-projet)
+- [🤝 Contribuer](#contribuer)
+- [📜 Licence](#licence)
 
+## 🔧 Technologies utilisées
 
+Ce projet utilise les technologies et dépendances suivantes :
+
+- **React** ⚛️
+- **React DOM** 🖥️
+- **React Router DOM** 🌐
+- **TypeScript** 📝
+- **Vite** ⚡
+- **html2canvas** 🖼️
+- **ESLint** 🚨
+- **Prettier** 💅
 ## 🛠️ Installation
 
 Pour installer et configurer le projet localement, suivez ces étapes :
@@ -24,7 +38,7 @@ Pour installer et configurer le projet localement, suivez ces étapes :
    git clone https://github.com/votre-utilisateur/randomizer-sims.git
    cd randomizer-sims
 
-2. Installez les dépendances avec pnpm ( html2canvas , react-router-dom):
+2. Installez les dépendances avec pnpm ( html2canvas , react-router-dom, ):
    ```bash
    pnpm install
 
@@ -38,8 +52,9 @@ RandomSims est là pour transformer votre expérience avec Les Sims 4 ! Voici ce
 
 
 - 🎲 **Génération aléatoire de défis et de scénarios** : Laissez le hasard guider vos Sims vers des aventures inattendues et hilarantes.
-- 📸 **Capture avec HTML2Canvas** : Immortalisez les moments les plus loufoques et les plus mémorables de vos Sims sous forme d'images.
+- 📸 **Capture avec HTML2Canvas** : Immortalisez les combinaisons les plus hilarantes et mémorables de vos Sims grâce à des captures d'écran uniques.
 - 🔄 **Intégration fluide avec React Router** : Naviguez sans effort entre les différentes pages de votre application pour une gestion facile de vos défis et de vos Sims.
+- 📱 **Responsive et mobile-friendly** : Profitez d'une expérience optimale sur toutes les tailles d'écran, y compris les téléphones portables.
 
 Préparez-vous à vivre des moments épiques et à explorer les possibilités infinies des Sims 4 avec Randomizer Sims ! 🚀👾
 

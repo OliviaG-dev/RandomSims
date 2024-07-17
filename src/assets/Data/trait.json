@@ -1,266 +1,266 @@
 [
     {
         "name":"Actif",
-        "image":"/public/Images/icone_traits_adulte/Actif.png"
+        "image":"/Images/icone_traits_adulte/Actif.png"
     },
     {
         "name":"Créatif",
-        "image":"/public/Images/icone_traits_adulte/Créatif.png"
+        "image":"/Images/icone_traits_adulte/Créatif.png"
     },
     {
         "name":"Exigeant",
-        "image":"/public/Images/icone_traits_adulte/Exigeant.png"
+        "image":"/Images/icone_traits_adulte/Exigeant.png"
     },
     {
         "name":"Froid",
-        "image":"/public/Images/icone_traits_adulte/Froid.png"
+        "image":"/Images/icone_traits_adulte/Froid.png"
     },
     {
         "name":"Génie",
-        "image":"/public/Images/icone_traits_adulte/Génie.png"
+        "image":"/Images/icone_traits_adulte/Génie.png"
     },
     {
         "name":"Joyeux",
-        "image":"/public/Images/icone_traits_adulte/Joyeux.png"
+        "image":"/Images/icone_traits_adulte/Joyeux.png"
     },
     {
         "name":"Morose",
-        "image":"/public/Images/icone_traits_adulte/Morose.png"
+        "image":"/Images/icone_traits_adulte/Morose.png"
     },
     {
         "name":"Pitre",
-        "image":"/public/Images/icone_traits_adulte/Pitre.png"
+        "image":"/Images/icone_traits_adulte/Pitre.png"
     },
     {
         "name":"Romantique",
-        "image":"/public/Images/icone_traits_adulte/Romantique.png"
+        "image":"/Images/icone_traits_adulte/Romantique.png"
     },
     {
         "name":"Sang Chaud",
-        "image":"/public/Images/icone_traits_adulte/Sang-Chaud.png"
+        "image":"/Images/icone_traits_adulte/Sang-Chaud.png"
     },
     {
         "name":"Sûr de lui",
-        "image":"/public/Images/icone_traits_adulte/Sûr-de-lui.png"
+        "image":"/Images/icone_traits_adulte/Sûr-de-lui.png"
     },
     {
         "name":"Aime la musique",
-        "image":"/public/Images/icone_traits_adulte/Aime-la-musique.png"
+        "image":"/Images/icone_traits_adulte/Aime-la-musique.png"
     },
     {
         "name":"Amateur d'art",
-        "image":"/public/Images/icone_traits_adulte/Amateur-d'art.png"
+        "image":"/Images/icone_traits_adulte/Amateur-d'art.png"
     },
     {
         "name":"Fabricant",
-        "image":"/public/Images/icone_traits_adulte/Fabricant.png"
+        "image":"/Images/icone_traits_adulte/Fabricant.png"
     },
     {
         "name":"Geek",
-        "image":"/public/Images/icone_traits_adulte/Geek.png"
+        "image":"/Images/icone_traits_adulte/Geek.png"
     },
     {
         "name":"Gourmand",
-        "image":"/public/Images/icone_traits_adulte/Gourmand.png"
+        "image":"/Images/icone_traits_adulte/Gourmand.png"
     },
     {
         "name":"Perfectionniste",
-        "image":"/public/Images/icone_traits_adulte/Perfectioniste.png"
+        "image":"/Images/icone_traits_adulte/Perfectioniste.png"
     },
     {
         "name":"Rat de bibliothèque",
-        "image":"/public/Images/icone_traits_adulte/Rat-de-bibliothèque.png"
+        "image":"/Images/icone_traits_adulte/Rat-de-bibliothèque.png"
     },
     {
         "name":"Adore la nature",
-        "image":"/public/Images/icone_traits_adulte/Adore-la-nature.png"
+        "image":"/Images/icone_traits_adulte/Adore-la-nature.png"
     },
     {
         "name":"Adore les Animaux",
-        "image":"/public/Images/icone_traits_adulte/Adore-les-animaux.png"
+        "image":"/Images/icone_traits_adulte/Adore-les-animaux.png"
     },
     {
         "name":"Ambitieux",
-        "image":"/public/Images/icone_traits_adulte/Ambitieux.png"
+        "image":"/Images/icone_traits_adulte/Ambitieux.png"
     },
     {
         "name":"Amoureux des chats",
-        "image":"/public/Images/icone_traits_adulte/Amoureux-des-chats.png"
+        "image":"/Images/icone_traits_adulte/Amoureux-des-chats.png"
     },
     {
         "name":"Amoureux des chiens",
-        "image":"/public/Images/icone_traits_adulte/Amoureux-des-chiens.png"
+        "image":"/Images/icone_traits_adulte/Amoureux-des-chiens.png"
     },
     {
         "name":"Aventureux",
-        "image":"/public/Images/icone_traits_adulte/Aventureux.png"
+        "image":"/Images/icone_traits_adulte/Aventureux.png"
     },
     {
         "name":"Crasseux",
-        "image":"/public/Images/icone_traits_adulte/Crasseux.png"
+        "image":"/Images/icone_traits_adulte/Crasseux.png"
     },
     {
         "name":"Disciple du recyclage",
-        "image":"/public/Images/icone_traits_adulte/Disciple-du-recyclage.png"
+        "image":"/Images/icone_traits_adulte/Disciple-du-recyclage.png"
     },
     {
         "name":"Délicat",
-        "image":"/public/Images/icone_traits_adulte/Délicat.png"
+        "image":"/Images/icone_traits_adulte/Délicat.png"
     },
     {
         "name":"Enfant de l'océan",
-        "image":"/public/Images/icone_traits_adulte/Enfant-de-l'océan.png"
+        "image":"/Images/icone_traits_adulte/Enfant-de-l'océan.png"
     },
     {
         "name":"Enfant des îles",
-        "image":"/public/Images/icone_traits_adulte/Enfant-des-îles.png"
+        "image":"/Images/icone_traits_adulte/Enfant-des-îles.png"
     },
     {
         "name":"Enfant du village",
-        "image":"/public/Images/icone_traits_adulte/Enfant-du-village.png"
+        "image":"/Images/icone_traits_adulte/Enfant-du-village.png"
     },
     {
         "name":"Freegan",
-        "image":"/public/Images/icone_traits_adulte/Freegan.png"
+        "image":"/Images/icone_traits_adulte/Freegan.png"
     },
     {
         "name":"Glouton",
-        "image":"/public/Images/icone_traits_adulte/Glouton.png"
+        "image":"/Images/icone_traits_adulte/Glouton.png"
     },
     {
         "name":"Hyper-écolo",
-        "image":"/public/Images/icone_traits_adulte/Hyper-écolo.png"
+        "image":"/Images/icone_traits_adulte/Hyper-écolo.png"
     },
     {
         "name":"Immature",
-        "image":"/public/Images/icone_traits_adulte/Immature.png"
+        "image":"/Images/icone_traits_adulte/Immature.png"
     },
     {
         "name":"Imprévisible",
-        "image":"/public/Images/icone_traits_adulte/Imprévisible.png"
+        "image":"/Images/icone_traits_adulte/Imprévisible.png"
     },
     {
         "name":"Intolérant au lactose",
-        "image":"/public/Images/icone_traits_adulte/Intolérant-au-lactose.png"
+        "image":"/Images/icone_traits_adulte/Intolérant-au-lactose.png"
     },
     {
         "name":"Kleptomane",
-        "image":"/public/Images/icone_traits_adulte/Kleptomane.png"
+        "image":"/Images/icone_traits_adulte/Kleptomane.png"
     },
     {
         "name":"Machine à danser",
-        "image":"/public/Images/icone_traits_adulte/Machine-à-danser.png"
+        "image":"/Images/icone_traits_adulte/Machine-à-danser.png"
     },
     {
         "name":"Maladroit",
-        "image":"/public/Images/icone_traits_adulte/Maladroit.png"
+        "image":"/Images/icone_traits_adulte/Maladroit.png"
     },
     {
         "name":"Matérialiste",
-        "image":"/public/Images/icone_traits_adulte/Matérialiste.png"
+        "image":"/Images/icone_traits_adulte/Matérialiste.png"
     },
     {
         "name":"Paresseux",
-        "image":"/public/Images/icone_traits_adulte/Paresseux.png"
+        "image":"/Images/icone_traits_adulte/Paresseux.png"
     },
     {
         "name":"Snob",
-        "image":"/public/Images/icone_traits_adulte/Snob.png"
+        "image":"/Images/icone_traits_adulte/Snob.png"
     },
     {
         "name":"Propriétaire de ranch",
-        "image":"/public/Images/icone_traits_adulte/Propriétaire-de-ranch.png"
+        "image":"/Images/icone_traits_adulte/Propriétaire-de-ranch.png"
     },
     {
         "name":"Soigné",
-        "image":"/public/Images/icone_traits_adulte/Soigné.png"
+        "image":"/Images/icone_traits_adulte/Soigné.png"
     },
     {
         "name":"Végétarien",
-        "image":"/public/Images/icone_traits_adulte/Végétarien.png"
+        "image":"/Images/icone_traits_adulte/Végétarien.png"
     },
     {
         "name":"Amoureux des chevaux",
-        "image":"/public/Images/icone_traits_adulte/Amoureux-des-chevaux.png"
+        "image":"/Images/icone_traits_adulte/Amoureux-des-chevaux.png"
     },
     {
         "name":"Bien élevé",
-        "image":"/public/Images/icone_traits_adulte/Bien-élevé.png"
+        "image":"/Images/icone_traits_adulte/Bien-élevé.png"
     },
     {
         "name":"Bienveillant",
-        "image":"/public/Images/icone_traits_adulte/Bienveillant.png"
+        "image":"/Images/icone_traits_adulte/Bienveillant.png"
     },
     {
         "name":"Déteste les enfants",
-        "image":"/public/Images/icone_traits_adulte/Déteste-les-enfants.png"
+        "image":"/Images/icone_traits_adulte/Déteste-les-enfants.png"
     },
     {
         "name":"Egocentrique",
-        "image":"/public/Images/icone_traits_adulte/Egocentrique.png"
+        "image":"/Images/icone_traits_adulte/Egocentrique.png"
     },
     {
         "name":"Extraverti",
-        "image":"/public/Images/icone_traits_adulte/Extraverti.png"
+        "image":"/Images/icone_traits_adulte/Extraverti.png"
     },
     {
         "name":"Initié",
-        "image":"/public/Images/icone_traits_adulte/Initié.png"
+        "image":"/Images/icone_traits_adulte/Initié.png"
     },
     {
         "name":"Jaloux",
-        "image":"/public/Images/icone_traits_adulte/Jaloux.png"
+        "image":"/Images/icone_traits_adulte/Jaloux.png"
     },
     {
         "name":"Fidèle",
-        "image":"/public/Images/icone_traits_adulte/Fidèle.png"
+        "image":"/Images/icone_traits_adulte/Fidèle.png"
     },
     {
         "name":"Malveillant",
-        "image":"/public/Images/icone_traits_adulte/Malveillant.png"
+        "image":"/Images/icone_traits_adulte/Malveillant.png"
     },
     {
         "name":"Membre d'un groupe de potes",
-        "image":"/public/Images/icone_traits_adulte/Menbre-d'un-groupe-de-potes.png"
+        "image":"/Images/icone_traits_adulte/Menbre-d'un-groupe-de-potes.png"
     },
     {
         "name":"Méchant",
-        "image":"/public/Images/icone_traits_adulte/Méchant.png"
+        "image":"/Images/icone_traits_adulte/Méchant.png"
     },
     {
         "name":"Paranoïaque",
-        "image":"/public/Images/icone_traits_adulte/Paranoiaque.png"
+        "image":"/Images/icone_traits_adulte/Paranoiaque.png"
     },
     {
         "name":"Proche de la famille",
-        "image":"/public//Images/icone_traits_adulte/Proche-de-sa-famille.png"
+        "image":"/Images/icone_traits_adulte/Proche-de-sa-famille.png"
     },
     {
         "name":"Réticent à s'engager",
-        "image":"/public/Images/icone_traits_adulte/Réticent-a-s'engager.png"
+        "image":"/Images/icone_traits_adulte/Réticent-a-s'engager.png"
     },
     {
         "name":"Solitaire",
-        "image":"/public/Images/icone_traits_adulte/Solitaire.png"
+        "image":"/Images/icone_traits_adulte/Solitaire.png"
     },
     {
         "name":"Fêtard",
-        "image":"/public/Images/icone_traits_adulte/Fêtard.png"
+        "image":"/Images/icone_traits_adulte/Fêtard.png"
     },
     {
         "name":"Généreux",
-        "image":"/public/Images/icone_traits_adulte/Généreux.png"
+        "image":"/Images/icone_traits_adulte/Généreux.png"
     },
     {
         "name":"Gênant",
-        "image":"/public/Images/icone_traits_adulte/Gênant.png"
+        "image":"/Images/icone_traits_adulte/Gênant.png"
     },
     {
         "name":"Indiscret",
-        "image":"/public/Images/icone_traits_adulte/Indiscret.png"
+        "image":"/Images/icone_traits_adulte/Indiscret.png"
     },
     {
         "name":"Mal à l'aise en société",
-        "image":"/public/Images/icone_traits_adulte/Mal-à-l-aise-en-société.png"
+        "image":"/Images/icone_traits_adulte/Mal-à-l-aise-en-société.png"
     }
 ]
