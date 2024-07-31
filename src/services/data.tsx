@@ -6,6 +6,7 @@ import maps from "../assets/Data/map.json"
 import traitsTerrain from "../assets/Data/traitTerrain.json"
 import defisTerrain from "../assets/Data/defiTerrain.json"
 import challenges from "../assets/Data/challenge.json"
+import prefTue from "../assets/Data/prefTue.json"
 
 import { DataDefiTerrain } from "./interface";
 import { DataTrait } from './interface'
@@ -15,6 +16,7 @@ import { DataJob } from './interface'
 import { DataMap } from './interface'
 import { DataTraitTerrain } from "./interface"
 import { DataChallenge } from "./interface"
+import { DataPrefTue } from "./interface"
 
 class Data {
 
@@ -48,6 +50,10 @@ class Data {
 
     GetDataChallenge = (): DataChallenge[] => {
         return challenges as DataChallenge[];
+    }
+
+    GetDataPrefTue = (): DataPrefTue[] => {
+        return prefTue as DataPrefTue[];
     }
 }
 

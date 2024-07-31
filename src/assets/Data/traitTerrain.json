@@ -134,5 +134,9 @@
     {
         "name": "Terrain écologique",
         "img": "/Images/icone_traits_terrain/Terrain_écologique.png"
+    },
+    {
+        "name": "Repaire de célibataire",
+        "img": "/Images/icone_traits_terrain/Repaire_de_celibataire.png"
     }
 ]

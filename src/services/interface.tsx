@@ -50,16 +50,8 @@ export interface DataChallenge {
     link: string;
 }
 
-export interface ButtonComponentProps {
-    btnText: string[];
-    onClick: () => void;
-}
-
-export interface Particle {
-    x: number;
-    y: number;
-    size: number;
-    color: string;
-    velX: number;
-    velY: number;
+export interface DataPrefTue {
+    id: string;
+    name: string;
+    img: string;
 }

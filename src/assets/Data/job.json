@@ -460,5 +460,19 @@
         "text" : "Depuis votre enfance, vous rêvez de posséder votre propre magasin. Mais avez-vous l'âme d'un véritable patron ? Saurez-vous satisfaire votre équipe, fidéliser vos clients, et surtout proposer des produits de qualité pour devenir une référence dans le commerce ? Découvrez si vous avez ce qu'il faut pour réussir dans le monde exigeant de la vente et faire de votre magasin une véritable réussite !",
         "branch" : "",
         "img" : "/Images/icone_job_adulte/Employe-Commerce.png"
+    },
+    {
+        "id" : "67",
+        "namejob" : "Consultante en amour",
+        "text" : "Vous avez un don pour interpréter les sentiments, vous adorez le côté excitant des rencontres amoureuses et vous avez envie d'aider les autres à trouver le grand amour ? Votre destin est peut-être de devenir consultante en amour !",
+        "branch" : "Thérapeute de couple",
+        "img" : "/Images/icone_job_adulte/Consultante_en_amour.png"
+    },
+    {
+        "id" : "68",
+        "namejob" : "Consultante en amour",
+        "text" : "Vous avez un don pour interpréter les sentiments, vous adorez le côté excitant des rencontres amoureuses et vous avez envie d'aider les autres à trouver le grand amour ? Votre destin est peut-être de devenir consultante en amour !",
+        "branch" : "Entremetteuse",
+        "img" : "/Images/icone_job_adulte/Consultante_en_amour.png"
     }
 ]

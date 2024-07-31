@@ -262,5 +262,17 @@
     {
         "name":"Mal à l'aise en société",
         "image":"/Images/icone_traits_adulte/Mal-à-l-aise-en-société.png"
+    },
+    {
+        "name":"La pratique permet d'atteindre la perfection",
+        "image":"/Images/icone_traits_adulte/La_pratique.png"
+    },
+    {
+        "name":"Prudent en amour",
+        "image":"/Images/icone_traits_adulte/Prudent_en_amour.png"
+    },
+    {
+        "name":"A un cœur d'artichaut",
+        "image":"/Images/icone_traits_adulte/Coeur_d_artichaut.png"
     }
 ]

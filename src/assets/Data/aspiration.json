@@ -434,9 +434,25 @@
     {   
         "id" : "55",
         "name" : "Corsaire galactique",
-        "text" : " Votre Sim n'a choisi aucun camp et préfère côtoyer les contrebandiers et les chasseurs de primes histoire de gagner quelques crédits.",
+        "text" : "Votre Sim n'a choisi aucun camp et préfère côtoyer les contrebandiers et les chasseurs de primes histoire de gagner quelques crédits.",
         "cat" :"Star Wars",
         "imgcat" : "/Images/icone_aspirations_adulte/cat/Star_wars.png",
         "image" : "/Images/icone_aspirations_adulte/Corsaire_galactique.png"
+    },
+    {   
+        "id" : "56",
+        "name" : "Partenaire modèle",
+        "text" : "Ce Sim veut avoir des relations réussies avec au moins deux Sims.",
+        "cat" :"Amour",
+        "imgcat" : "/Images/icone_aspirations_adulte/cat/Amour.png",
+        "image" : "/Images/icone_aspirations_adulte/Partenaire_modele"
+    },
+    {   
+        "id" : "57",
+        "name" : "Explorateur romantique",
+        "text" : "Ce Sim veut explorer tout ce que l'amour a à offrir.",
+        "cat" :"Amour",
+        "imgcat" : "/Images/icone_aspirations_adulte/cat/Amour.png",
+        "image" : "/Images/icone_aspirations_adulte/Explorateur_en_amour.png"
     }
 ]
