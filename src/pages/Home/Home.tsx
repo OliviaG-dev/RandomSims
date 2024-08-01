@@ -6,6 +6,7 @@ import { DataColor } from "../../services/interface";
 import { DataTrait } from "../../services/interface";
 import { DataAspiration } from "../../services/interface";
 import { DataJob } from "../../services/interface";
+import { DataPrefTue } from "../../services/interface";
 import html2canvas from "html2canvas";
 
 function Home() {
@@ -15,13 +16,18 @@ function Home() {
   const dataTraits: DataTrait[] = data.GetDataTrait();
   const dataAspirations: DataAspiration[] = data.GetDataAspiration();
   const dataJobs: DataJob[] = data.GetDataJob();
+  const dataPrefTue: DataPrefTue[] = data.GetDataPrefTue();
 
   const [selectedColor, setSelectedColor] = useState<DataColor | null>(null);
   const [selectedTraits, setSelectedTraits] = useState<DataTrait[]>([]);
   const [selectedAspiration, setSelectedAspiration] =
     useState<DataAspiration | null>(null);
   const [selectedJob, setSelectedJob] = useState<DataJob | null>(null);
+  const [selectedRepulse, setSelectedRepulse] = useState<DataPrefTue[]>([]);
   const [showContainers, setShowContainers] = useState<boolean>(false);
+  const [selectedPreferences, setSelectedPreferences] = useState<DataPrefTue[]>(
+    []
+  );
 
   const resultRef = useRef<HTMLDivElement>(null);
 
@@ -45,6 +51,15 @@ function Home() {
     setSelectedJob(dataJobs[randomIndex]);
   };
 
+  const selectRandomPreferencesAndTurnOffs = () => {
+    const shuffled = dataPrefTue.sort(() => 0.5 - Math.random());
+    const randomNumber = Math.floor(Math.random() * 46) + 5; // Entre 5 et 50
+    const selected = shuffled.slice(0, randomNumber);
+    const halfIndex = Math.floor(selected.length / 2);
+    setSelectedPreferences(selected.slice(0, halfIndex));
+    setSelectedRepulse(selected.slice(halfIndex));
+  };
+
   const saveAsImage = () => {
     if (resultRef.current) {
       html2canvas(resultRef.current, { useCORS: true }).then((canvas) => {
@@ -63,6 +78,7 @@ function Home() {
     selectRandomAspiration();
     selectRandomJob();
     setShowContainers(true);
+    selectRandomPreferencesAndTurnOffs();
   };
 
   return (
@@ -204,6 +220,52 @@ function Home() {
                   </div>
                 </div>
               )}
+            </div>
+
+            {/* PREFERENCES & REPULSE RANDOM */}
+            <div className="random_container">
+              <button
+                className="register_button"
+                onClick={selectRandomPreferencesAndTurnOffs}
+              >
+                Générer préférences et tue-l'amour aléatoires
+              </button>
+              <div className="prefTu_container">
+                <div className="preferences_section">
+                  <h3>Préférences</h3>
+                  {selectedPreferences.length > 0 && (
+                    <div className="preferences_random">
+                      {selectedPreferences.map((pref, index) => (
+                        <div key={index} className="pref_random">
+                          <p className="pref_random_name">{pref.name}</p>
+                          <img
+                            src={pref.img}
+                            alt={pref.name}
+                            className="pref_random_image"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                <div className="repulse_section">
+                  <h3>Tue-l'amour</h3>
+                  {selectedRepulse.length > 0 && (
+                    <div className="repulsed_random">
+                      {selectedRepulse.map((repulse, index) => (
+                        <div key={index} className="repulse_random">
+                          <p className="repulse_random_name">{repulse.name}</p>
+                          <img
+                            src={repulse.img}
+                            alt={repulse.name}
+                            className="repulse_random_image"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
             </div>
           </div>
         </>

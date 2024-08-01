@@ -9,6 +9,7 @@ Découvrez ce projet **RandomSims** 🎲🎮 juste [ici](https://random-sims-76g
 
 ## 📑 Table des matières
 
+- [📅 Mises à jour](#mises-à-jour)
 - [🔧 Technologies utilisées](#technologies-utilisées)
 - [🛠️ Installation](#installation)
 - [🚀 Lancement](#lancement)
@@ -16,6 +17,26 @@ Découvrez ce projet **RandomSims** 🎲🎮 juste [ici](https://random-sims-76g
 - [🗂️ Structure du projet](#structure-du-projet)
 - [🤝 Contribuer](#contribuer)
 - [📜 Licence](#licence)
+
+## 📅 Mises à jour
+
+### 1er Août 2024 ☀️
+
+- Ajout du pack **Amour Fou** 💖:
+  - Ajout de la fonctionnalité **Tue l'amour** : Les Sims peuvent désormais avoir des interactions qui diminuent les relations amoureuses.
+  - Ajout de la fonctionnalité **Préférences** : Les Sims peuvent maintenant exprimer leurs préférences et aversions, ajoutant une nouvelle couche de réalisme et de complexité dans leurs interactions.
+  - Ajout du métier **Consultante en amour** avec deux branches :
+    - **Thérapeute de couple**
+    - **Entremetteuse**
+  - Ajout de deux nouvelles aspirations :
+    - **Partenaire modèle**
+    - **Explorateur romantique**
+  - Ajout de la nouvelle map **Ciudad Enamorada** 
+  - Ajout d'un nouveau trait de terrain : **Repaire de célibataire**
+  - Ajout de trois nouveaux traits de personnalité :
+    - **La pratique permet d'atteindre la perfection**
+    - **Prudent en amour**
+    - **A un cœur d'artichaut**
 
 ## 🔧 Technologies utilisées
 

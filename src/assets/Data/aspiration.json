@@ -428,7 +428,7 @@
         "name" : "Espoir ou Ordre",
         "text" : "Un conflit grandit dans le monde de Batuu. Votre Sim veut explorer l'Avant-Poste de la Flèche-Noire afin de comprendre s'il doit soutenir la Résistance ou le Premier Ordre.",
         "cat" :"Star Wars",
-        "imgcat" : "/Images/icone_aspirations_adulte/cat/Star_wars.png",
+        "imgcat" : "/Images/icone_aspirations_adulte/cat/Star_Wars.png",
         "image" : "/Images/icone_aspirations_adulte/Espoir_ou_Ordre.png"
     },
     {   
@@ -436,7 +436,7 @@
         "name" : "Corsaire galactique",
         "text" : "Votre Sim n'a choisi aucun camp et préfère côtoyer les contrebandiers et les chasseurs de primes histoire de gagner quelques crédits.",
         "cat" :"Star Wars",
-        "imgcat" : "/Images/icone_aspirations_adulte/cat/Star_wars.png",
+        "imgcat" : "/Images/icone_aspirations_adulte/cat/Star_Wars.png",
         "image" : "/Images/icone_aspirations_adulte/Corsaire_galactique.png"
     },
     {   
@@ -445,7 +445,7 @@
         "text" : "Ce Sim veut avoir des relations réussies avec au moins deux Sims.",
         "cat" :"Amour",
         "imgcat" : "/Images/icone_aspirations_adulte/cat/Amour.png",
-        "image" : "/Images/icone_aspirations_adulte/Partenaire_modele"
+        "image" : "/Images/icone_aspirations_adulte/Partenaire_modele.png"
     },
     {   
         "id" : "57",

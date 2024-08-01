@@ -1,7 +1,7 @@
 /********COMPOSANT GENERIQUES********/
 .random_container {
   display: flex;
-  margin:3rem 0;
+  margin: 3rem 0;
   padding-bottom: 3rem;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,7 @@
   cursor: pointer;
   background-color: #8bd877;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  border: none; 
+  border: none;
   padding: 1rem 0.5rem;
   cursor: pointer;
   border-radius: 5px;
@@ -28,7 +28,7 @@
   cursor: pointer;
   background-color: #f7f4ea;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  border: none; 
+  border: none;
   padding: 1rem 0.5rem;
   cursor: pointer;
   border-radius: 5px;
@@ -53,7 +53,11 @@
   border-radius: 5px;
   padding: 0.5rem 1.5rem;
   background-color: #8bd877;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.548),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 .random_textintro {
@@ -63,38 +67,43 @@
   padding: 0.5rem 1.5rem;
   justify-content: center;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  box-shadow:
+    rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
 .random_textintro p {
-  margin:0.5rem 0;
+  margin: 0.5rem 0;
 }
-
 
 /******* COLOR ********/
 
 .color_random {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    gap: 10px;
-    margin: 1rem 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+  margin: 1rem 0;
 }
 
 .color_random_name {
-    font-weight: 700;
-    text-transform: uppercase;
-    width: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 5rem;
 }
 
 .color_random_round {
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    border: 1px black solid;
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
-    
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 1px black solid;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 /******* TRAIT ********/
@@ -103,7 +112,7 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin: 1rem 0 ;
+  margin: 1rem 0;
   width: 100%;
 }
 
@@ -127,7 +136,7 @@
 
 .aspiration_random {
   gap: 10px;
-  margin: 1rem 0 ;
+  margin: 1rem 0;
   width: 100%;
 }
 
@@ -165,56 +174,107 @@
   border-radius: 5px;
   padding: 0.5rem 1.5rem;
   background-color: #8bd877;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.548),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 /******* JOB ********/
 
-  .job_button {
-    height: 3rem;
-    cursor: pointer;
-  }
-  
-  .job_random {
-    gap: 10px;
-    margin: 1rem 0 ;
-    width: 100%;
-  }
-  
-  .job_cat {
-    display: flex;
-    justify-content: space-around;
-    min-height: 5rem;
-  }
-  
-  .job_name {
-    font-weight: bold;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .job_img {
-    height: 5rem;
-  }
-  
-  .job_textcontain {
-    display: flex;
-    justify-content: center;
-    line-height: 2rem;
-    margin: 2rem 0.5rem;
-    border: 2px solid #02952b;
-    border-radius: 5px;
-    padding: 0.5rem 1.5rem;
-    background-color: #8bd877;
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0));
-  }
-/* 
-  .job_textcontain p {
-    line-height: 1rem;
-  } */
+.job_button {
+  height: 3rem;
+  cursor: pointer;
+}
+
+.job_random {
+  gap: 10px;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.job_cat {
+  display: flex;
+  justify-content: space-around;
+  min-height: 5rem;
+}
+
+.job_name {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.job_img {
+  height: 5rem;
+}
+
+.job_textcontain {
+  display: flex;
+  justify-content: center;
+  line-height: 2rem;
+  margin: 2rem 0.5rem;
+  border: 2px solid #02952b;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  background-color: #8bd877;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.548),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+/******* PREFERENCES/REPULSE ********/
+.prefTu_container {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.preferences_section, .repulse_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preferences_random , .repulsed_random {
+  justify-content: center;
+  display: flex;
+  width: 45%;
+  flex-wrap: wrap;
+}
+
+.pref_random , .repulse_random {
+  min-width: 10rem;
+  min-height: 11rem;
+  background-color: #8bd877;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.548),
+    rgba(255, 255, 255, 0)
+  );
+  border: 2px solid #02952b;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  align-items: center;
+  padding: 0.5rem;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.pref_random_image, .repulse_random_image {
+  border: #246cca98 groove 2px;
+}
+
+.pref_random_name, .repulse_random_name{
+  font-weight: bold;
+  font-size: 0.9em;
+}
 
 /***********RESPONSIVE***********/
 
