@@ -234,29 +234,26 @@
   margin-top: 3rem;
 }
 
-.preferences_section, .repulse_section {
+.preferences_section,
+.repulse_section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.preferences_random , .repulsed_random {
+.preferences_random,
+.repulsed_random {
   justify-content: center;
   display: flex;
   width: 45%;
   flex-wrap: wrap;
+  margin-top: 0.5rem;
 }
 
-.pref_random , .repulse_random {
+.pref_random,
+.repulse_random {
   min-width: 10rem;
   min-height: 11rem;
-  background-color: #8bd877;
-  background-image: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.548),
-    rgba(255, 255, 255, 0)
-  );
-  border: 2px solid #02952b;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -267,11 +264,33 @@
   text-align: center;
 }
 
-.pref_random_image, .repulse_random_image {
+.pref_random {
+  background-color: #8bd877;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.548),
+    rgba(255, 255, 255, 0)
+  );
+  border: 2px solid #02952b;
+}
+
+.repulse_random {
+  background-color: #ff9999;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.548),
+    rgba(255, 255, 255, 0)
+  );
+  border: 2px solid #ff6666;
+}
+
+.pref_random_image,
+.repulse_random_image {
   border: #246cca98 groove 2px;
 }
 
-.pref_random_name, .repulse_random_name{
+.pref_random_name,
+.repulse_random_name {
   font-weight: bold;
   font-size: 0.9em;
 }
