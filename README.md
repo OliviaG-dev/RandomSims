@@ -20,6 +20,21 @@ Découvrez ce projet **RandomSims** 🎲🎮 juste [ici](https://random-sims-76g
 
 ## 📅 Mises à jour
 
+### 31 octobre 2024 🎃
+
+- Ajout du pack **À la vie, à la mort** 💀:
+  - Ajout du métier jouable **Faucheuse** : incarnez la Faucheuse et guidez les âmes vers l’au-delà.
+  - Ajout du métier **Personnel de pompes funèbres** avec deux branches :
+    - **Croque-mort**
+    - **Responsable de pompes funèbres**
+  - Ajout de trois nouveaux traits de personnalité :
+    - **Macabre** : les Sims sont fascinés par la mort.
+    - **Sceptique** : les Sims doutent de l'au-delà.
+    - **Poursuivi par la Mort** : les Sims sentent une présence sinistre autour d’eux.
+  - Ajout de la nouvelle map **RavenWood** : explorez un monde mystérieux et inquiétant.
+  - Ajout du nouveau défi de terrain **Envie de frissonner** : des événements paranormaux se produisent plus souvent.
+  - Ajout de la nouvelle aspiration **Historien des fantômes** : devenez un expert des esprits et de leurs histoires.
+
 ### 1er Août 2024 ☀️
 
 - Ajout du pack **Amour Fou** 💖:

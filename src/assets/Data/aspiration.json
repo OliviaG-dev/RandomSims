@@ -454,5 +454,13 @@
         "cat" :"Amour",
         "imgcat" : "/Images/icone_aspirations_adulte/cat/Amour.png",
         "image" : "/Images/icone_aspirations_adulte/Explorateur_en_amour.png"
+    },
+    {   
+        "id" : "58",
+        "name" : "Historien des fantômes",
+        "text" : "Ce Sim veut tout savoir sur les fantômes pour écrire des romans d'horreur !",
+        "cat" :"Connaissance",
+        "imgcat" : "/Images/icone_aspirations_adulte/cat/Connaissance.png",
+        "image" : "/Images/icone_aspirations_adulte/Historien_des_fantomes.png"
     }
 ]

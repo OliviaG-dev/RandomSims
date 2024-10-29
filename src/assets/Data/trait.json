@@ -274,5 +274,17 @@
     {
         "name":"A un cœur d'artichaut",
         "image":"/Images/icone_traits_adulte/Coeur_d_artichaut.png"
+    },
+    {
+        "name":"Macabre",
+        "image":"/Images/icone_traits_adulte/Macabre.png"
+    },
+    {
+        "name":"Sceptique",
+        "image":"/Images/icone_traits_adulte/Sceptique.png"
+    },
+    {
+        "name":"Poursuivi par la Mort",
+        "image":"/Images/icone_traits_adulte/Poursuivi_par_la_mort.png"
     }
 ]

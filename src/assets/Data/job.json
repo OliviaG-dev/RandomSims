@@ -474,5 +474,26 @@
         "text" : "Vous avez un don pour interpréter les sentiments, vous adorez le côté excitant des rencontres amoureuses et vous avez envie d'aider les autres à trouver le grand amour ? Votre destin est peut-être de devenir consultante en amour !",
         "branch" : "Entremetteuse",
         "img" : "/Images/icone_job_adulte/Consultante_en_amour.png"
+    },
+    {
+        "id" : "69",
+        "namejob" : "Faucheuse",
+        "text" : "Vous pourrez bientôt porter une robe et devenir une Faucheuse ! En tant qu'employé de la Faucheuse, vous pourrez gravir les échelons de son système tétraédrique et obtenir des récompenses comme le fait de pouvoir discuter d'affaires mortelles et de posséder un Sablier éternel. Faites en sorte de prédire votre parcours jusqu'au sommet et parvenez à être le bras droit de la Faucheuse, tout en débloquant une tenue vraiment digne de la Faucheuse en utilisant le Toucher mortel partout où vous allez.",
+        "branch" : "",
+        "img" : "/Images/icone_job_adulte/Faucheuse.png"
+    },
+    {
+        "id" : "70",
+        "namejob" : "Croque-mort",
+        "text" : "Les croque-morts incarnent le côté scientifique de la mort. Ces Sims devront probablement endurer des vapeurs de produits chimiques bizarres et des incidents de maquillage, tout en se faisant régulièrement snober par leur clientèle. Enfin, il leur faudra exceller dans les préparations de veillées funèbres, sans pour autant réveiller les morts.",
+        "branch" : "Personnel de pompes funèbres",
+        "img" : "/Images/icone_job_adulte/Croque_mort"
+    },
+    {
+        "id" : "71",
+        "namejob" : "Responsable de pompes funèbres",
+        "text" : "Les responsables de pompes funèbres peuvent proposer un mouchoir propre et une magnifique composition florale. Du travail administratif aux rites de passage, et des expositions des corps aux cortèges funèbres, leur rôle est d'aider les Sims à gérer les suites d'un décès de façon gracieuse.",
+        "branch" : "Personnel de pompes funèbres",
+        "img" : "/Images/icone_job_adulte/Responsable_de_pompes_funebres.png"
     }
 ]

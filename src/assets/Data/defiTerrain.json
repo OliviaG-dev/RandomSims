@@ -58,5 +58,9 @@
     {
         "name": "Problème d'entretien",
         "img": "/Images/icone_defis_terrain/Probleme_d_entretient.png"
+    },
+    {
+        "name": "Envie de frissonner",
+        "img": "/Images/icone_defis_terrain/Envie_de_frisonner.png"
     }
 ]

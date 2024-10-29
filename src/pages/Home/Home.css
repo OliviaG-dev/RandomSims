@@ -161,6 +161,10 @@
 }
 
 .aspiration_img {
+  max-height: 5rem;
+}
+
+.aspiration_img {
   display: flex;
   justify-content: center;
   align-items: center;
