@@ -487,7 +487,7 @@
         "namejob" : "Croque-mort",
         "text" : "Les croque-morts incarnent le côté scientifique de la mort. Ces Sims devront probablement endurer des vapeurs de produits chimiques bizarres et des incidents de maquillage, tout en se faisant régulièrement snober par leur clientèle. Enfin, il leur faudra exceller dans les préparations de veillées funèbres, sans pour autant réveiller les morts.",
         "branch" : "Personnel de pompes funèbres",
-        "img" : "/Images/icone_job_adulte/Croque_mort"
+        "img" : "/Images/icone_job_adulte/Croque_mort.png"
     },
     {
         "id" : "71",
