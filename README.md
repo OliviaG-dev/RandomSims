@@ -1,4 +1,4 @@
-# 🎮 Projet RandomSims 🎮
+# 🎮 Projet RandomSims 🎮 (branch Mocked)
 
 Bienvenue dans le projet **RandomSims** ! Ce projet est une application web développée avec TypeScript et React, et gérée avec pnpm. L'application permet aux utilisateurs de générer des défis aléatoires pour Les Sims 4, que ce soit pour un lieu de vie, un Sim ou d'autres aspects du jeu. Prêt à voir vos Sims vivre des aventures complètement dingues ? 🤪
 
