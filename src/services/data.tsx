@@ -1,60 +1,64 @@
-import color from "../assets/Data/color.json"
-import traits from "../assets/Data/trait.json"
-import aspirations from "../assets/Data/aspiration.json"
-import jobs from "../assets/Data/job.json"
-import maps from "../assets/Data/map.json"
-import traitsTerrain from "../assets/Data/traitTerrain.json"
-import defisTerrain from "../assets/Data/defiTerrain.json"
-import challenges from "../assets/Data/challenge.json"
-import prefTue from "../assets/Data/prefTue.json"
-
 import { DataDefiTerrain } from "./interface";
-import { DataTrait } from './interface'
-import { DataColor } from './interface'
-import { DataAspiration } from './interface'
-import { DataJob } from './interface'
-import { DataMap } from './interface'
-import { DataTraitTerrain } from "./interface"
-import { DataChallenge } from "./interface"
-import { DataPrefTue } from "./interface"
+import { DataTrait } from "./interface";
+import { DataColor } from "./interface";
+import { DataAspiration } from "./interface";
+import { DataJob } from "./interface";
+import { DataMap } from "./interface";
+import { DataTraitTerrain } from "./interface";
+import { DataChallenge } from "./interface";
+import { DataPrefTue } from "./interface";
+
+const API_BASE_URL = "https://randomsims-api.onrender.com/data";
 
 class Data {
-
-    getDataColor = (): DataColor[] => {
-        return color as DataColor[];
-    };
-
-    GetDataTrait = (): DataTrait[] => {
-        return traits as DataTrait[];
-    };
-
-    GetDataAspiration = (): DataAspiration[] => {
-        return aspirations as DataAspiration[];
+  private async fetchData<T>(endpoint: string): Promise<T[]> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/${endpoint}`);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return await response.json();
+    } catch (error) {
+      console.error(`Error fetching ${endpoint}:`, error);
+      return [];
     }
+  }
 
-    GetDataJob = (): DataJob[] => {
-        return jobs as DataJob[];
-    }
+  getDataColor = async (): Promise<DataColor[]> => {
+    return this.fetchData<DataColor>("color");
+  };
 
-    GetDataMap = (): DataMap[] => {
-        return maps as DataMap[];
-    }
+  GetDataTrait = async (): Promise<DataTrait[]> => {
+    return this.fetchData<DataTrait>("trait");
+  };
 
-    GetDataTraitTerrain = (): DataTraitTerrain[] => {
-        return traitsTerrain as DataTraitTerrain[];
-    }
+  GetDataAspiration = async (): Promise<DataAspiration[]> => {
+    return this.fetchData<DataAspiration>("aspiration");
+  };
 
-    GetDataDefiTerrain = (): DataDefiTerrain[] => {
-        return defisTerrain as DataDefiTerrain[];
-    }
+  GetDataJob = async (): Promise<DataJob[]> => {
+    return this.fetchData<DataJob>("job");
+  };
 
-    GetDataChallenge = (): DataChallenge[] => {
-        return challenges as DataChallenge[];
-    }
+  GetDataMap = async (): Promise<DataMap[]> => {
+    return this.fetchData<DataMap>("map");
+  };
 
-    GetDataPrefTue = (): DataPrefTue[] => {
-        return prefTue as DataPrefTue[];
-    }
+  GetDataTraitTerrain = async (): Promise<DataTraitTerrain[]> => {
+    return this.fetchData<DataTraitTerrain>("traitTerrain");
+  };
+
+  GetDataDefiTerrain = async (): Promise<DataDefiTerrain[]> => {
+    return this.fetchData<DataDefiTerrain>("defiTerrain");
+  };
+
+  GetDataChallenge = async (): Promise<DataChallenge[]> => {
+    return this.fetchData<DataChallenge>("challenge");
+  };
+
+  GetDataPrefTue = async (): Promise<DataPrefTue[]> => {
+    return this.fetchData<DataPrefTue>("prefTue");
+  };
 }
 
 export default Data;

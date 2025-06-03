@@ -300,6 +300,15 @@
   font-size: 0.9em;
 }
 
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: #666;
+}
+
 /***********RESPONSIVE***********/
 
 @media (max-width: 1080px) {
