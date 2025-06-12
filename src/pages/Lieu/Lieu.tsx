@@ -6,6 +6,7 @@ import { DataMap } from "../../services/interface";
 import { DataTraitTerrain } from "../../services/interface";
 import { DataDefiTerrain } from "../../services/interface";
 import html2canvas from "html2canvas";
+import Loader from "../../Utils/Loader/Loader";
 
 function Page1() {
   const data = new Data();
@@ -104,9 +105,7 @@ function Page1() {
     <>
       <Navbar />
       {isLoading ? (
-        <div className="loading-container">
-          <p>Chargement des données...</p>
-        </div>
+      <Loader />
       ) : (
         <>
           <div className="title_container">

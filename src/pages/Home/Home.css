@@ -161,6 +161,10 @@
 }
 
 .aspiration_img {
+  max-height: 5rem;
+}
+
+.aspiration_img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,6 +257,7 @@
 .pref_random,
 .repulse_random {
   min-width: 10rem;
+  max-width: 10rem;
   min-height: 11rem;
   border-radius: 5px;
   display: flex;
@@ -295,6 +300,15 @@
   font-size: 0.9em;
 }
 
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: #666;
+}
+
 /***********RESPONSIVE***********/
 
 @media (max-width: 1080px) {
@@ -306,11 +320,11 @@
   }
 }
 
-.loading-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  font-size: 1.2rem;
-  color: #666;
+
+@media (min-width: 1080px) and (max-width: 1730px) {
+  .title_container {
+    justify-content: center;
+  }
 }
+
+
