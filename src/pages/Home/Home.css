@@ -320,9 +320,11 @@
   }
 }
 
+
 @media (min-width: 1080px) and (max-width: 1730px) {
   .title_container {
     justify-content: center;
   }
 }
+
 
