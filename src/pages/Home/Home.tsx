@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Data from "../../services/data";
+import Loader from "../../Utils/Loader/Loader";
 import { DataColor } from "../../services/interface";
 import { DataTrait } from "../../services/interface";
 import { DataAspiration } from "../../services/interface";
@@ -117,9 +118,7 @@ function Home() {
     <>
       <Navbar />
       {isLoading ? (
-        <div className="loading-container">
-          <p>Chargement des données...</p>
-        </div>
+        <Loader />
       ) : (
         <>
           <div className="title_container">

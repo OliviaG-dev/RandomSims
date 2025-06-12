@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Data from "../../services/data";
 import { DataChallenge } from "../../services/interface";
 import html2canvas from "html2canvas";
+import Loader from "../../Utils/Loader/Loader";
 
 function Page2() {
   const data = new Data();
@@ -51,9 +52,7 @@ function Page2() {
     <>
       <Navbar />
       {isLoading ? (
-        <div className="loading-container">
-          <p>Chargement des données...</p>
-        </div>
+       <Loader />
       ) : (
         <>
           <div className="title_container">
