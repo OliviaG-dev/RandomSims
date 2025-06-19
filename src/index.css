@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap");
 
 /* Josh's Custom CSS Reset - https://www.joshwcomeau.com/css/custom-css-reset/ */
 *,
@@ -15,10 +14,14 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 50%, #d4f1d4 100%);
+  color: #2c3e50;
+  font-family: "K2D", sans-serif;
+  padding: 0 35rem;
 }
 
 img {
-  max-width: 100%; /* do not display:block for img! */
+  max-width: 100%;
 }
 
 picture,
@@ -48,12 +51,11 @@ h6 {
 
 li,
 ul,
-a
-{
-list-style: none;
-padding: 0;
-margin: 0;
-text-decoration: none;
+a {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
 
 #root,
@@ -61,17 +63,17 @@ text-decoration: none;
   isolation: isolate;
 }
 
-body {
-  background-color: #f7f4ea;
-  padding: 0 35rem;
-  font-family: "K2D", sans-serif;
-}  
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 /***********RESPONSIVE***********/
 
 @media (max-width: 1500px) {
   body {
-      padding: 0.5rem;
+    padding: 0.5rem;
   }
 }
 

@@ -52,11 +52,11 @@ function Page2() {
     <>
       <Navbar />
       {isLoading ? (
-       <Loader />
+        <Loader />
       ) : (
         <>
           <div className="title_container">
-            <h1>Randomiser un challenge :</h1>
+            <h1>Randomiser un challenge</h1>
             <button className="random_button" onClick={selectRandomChallenge}>
               Générer un challenge aléatoire
             </button>

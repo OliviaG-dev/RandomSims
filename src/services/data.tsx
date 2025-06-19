@@ -10,6 +10,15 @@ import { DataPrefTue } from "./interface";
 
 const API_BASE_URL = "https://randomsims-api.onrender.com/data";
 
+// Fonction pour gérer les images avec CORS
+export const getImageWithCORS = (imageUrl: string): string => {
+  // Si l'image vient de votre API, utiliser un proxy CORS
+  if (imageUrl.includes("randomsims-api.onrender.com")) {
+    return `https://cors-anywhere.herokuapp.com/${imageUrl}`;
+  }
+  return imageUrl;
+};
+
 class Data {
   private async fetchData<T>(endpoint: string): Promise<T[]> {
     try {
