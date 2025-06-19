@@ -3,7 +3,7 @@
   flex-direction: column-reverse;
   align-items: center;
   margin-top: 3rem;
-  perspective: 600px; 
+  perspective: 600px;
 }
 
 .loader_img {
@@ -17,7 +17,7 @@
     transform: rotateY(0deg);
   }
   50% {
-    transform: rotateY(180deg) scale(1.05); 
+    transform: rotateY(180deg) scale(1.05);
   }
   100% {
     transform: rotateY(360deg);

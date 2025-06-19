@@ -3,11 +3,13 @@ import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Data from "../../services/data";
 import Loader from "../../Utils/Loader/Loader";
-import { DataColor } from "../../services/interface";
-import { DataTrait } from "../../services/interface";
-import { DataAspiration } from "../../services/interface";
-import { DataJob } from "../../services/interface";
-import { DataPrefTue } from "../../services/interface";
+import {
+  DataColor,
+  DataTrait,
+  DataAspiration,
+  DataJob,
+  DataPrefTue,
+} from "../../services/interface";
 import html2canvas from "html2canvas";
 
 function Home() {
@@ -122,7 +124,7 @@ function Home() {
       ) : (
         <>
           <div className="title_container">
-            <h1>Randomiser votre sims :</h1>
+            <h1>Randomiser votre sims</h1>
             <button className="random_button" onClick={generateRandomSim}>
               Générer un sim aléatoire
             </button>
