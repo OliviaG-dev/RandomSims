@@ -25,6 +25,7 @@
 }
 .loader_text {
   margin-top: 20px;
+  text-align: center;
   font-family: "Arial", sans-serif;
   font-size: 1.2rem;
   color: #1b9b2d; /* vert inspiré du Plumbob */
