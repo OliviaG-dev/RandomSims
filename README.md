@@ -19,6 +19,23 @@ Découvrez l'ancienne version de ce projet **RandomSims** 🎲🎮 juste [ici](h
 
 ## 📅 Mises à jour
 
+### 24 juillet 2025 🧚‍♀️
+
+- Ajout du pack **Nature enchantée** 🌿✨:
+  - Ajout du métier jouable **Herbaliste** avec deux branches :
+    - **Pro des remèdes** : expertise dans la création de potions curatives
+    - **Accompagnement au bien être** : spécialisation dans les soins holistiques
+  - Ajout de trois nouveaux traits de personnalité :
+    - **Fan de plantes** : les Sims adorent s'occuper de jardins et de végétation
+    - **Fauteur de troubles** : les Sims aiment créer des situations chaotiques
+    - **Mystique** : les Sims sont attirés par les forces surnaturelles et magiques
+  - Ajout de trois nouvelles aspirations :
+    - **Histoires de fée** : vivez des contes enchantés et magiques
+    - **Spécialiste des élixirs** : maîtrisez l'art de la création de potions
+    - **Nomade de la nature** : explorez et communiez avec la nature sauvage
+  - Ajout de la nouvelle map **Innisgreen** : découvrez un monde mystique rempli de magie naturelle
+  - Ajout du nouveau trait de terrain **Passage de fée** : des créatures féeriques visitent régulièrement le terrain
+
 ### 20 juin 2025 🌟
 
 - Ajout d'un **loader** pour améliorer l'expérience utilisateur pendant le chargement des pages.
