@@ -19,10 +19,23 @@ Découvrez l'ancienne version de ce projet **RandomSims** 🎲🎮 juste [ici](h
 
 ## 📅 Mises à jour
 
+### 25 juillet 2025 💼
+
+- Ajout du pack **Business et Loisir** 🏢💰:
+  - Ajout de deux nouvelles aspirations :
+    - **Entrepreneur estimé** : bâtissez un empire commercial respecté
+    - **Mentor magistral** : guidez et inspirez la nouvelle génération
+  - Ajout de quatre nouveaux traits de personnalité :
+    - **Louche** : les Sims ont des comportements suspects et mystérieux
+    - **Idéaliste** : les Sims croient en un monde meilleur et agissent selon leurs valeurs
+    - **Présence motivante** : les Sims inspirent et encouragent naturellement les autres
+    - **Marque populaire** : les Sims attirent l'attention et la popularité
+  - Ajout de la nouvelle map **Nordhaven** : découvrez un centre d'affaires dynamique aux paysages nordiques
+
 ### 24 juillet 2025 🧚‍♀️
 
 - Ajout du pack **Nature enchantée** 🌿✨:
-  - Ajout du métier jouable **Herbaliste** avec deux branches :
+  - Ajout du métier **Herbaliste** avec deux branches :
     - **Pro des remèdes** : expertise dans la création de potions curatives
     - **Accompagnement au bien être** : spécialisation dans les soins holistiques
   - Ajout de trois nouveaux traits de personnalité :
